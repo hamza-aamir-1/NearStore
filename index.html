@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Near Store | www.nearstore.com</title>
 
+    <!-- === Font Awesome CDN === -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CDN -->
+
     <!-- === Bootstrap CSS === -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Bootstrap CSS -->
@@ -16,10 +20,41 @@
 </head>
 <body>
 
-
+<!-- === Welcome NearStore === -->
+<header class="d-flex align-items-center px-4 py-3 home_welcome_ns">
+    <div class="text-uppercase home_welcome_ns_heading">
+        Welcome to NearStore
+    </div>
+    <div class="d-flex align-items-center ms-auto">
+        <div class="me-4 d-none d-sm-block">
+            <a href="#" class="home_welcome_ns_link">Contact Us</a>
+        </div>
+        <div class="me-4 d-none d-sm-block">
+            <a href="#" class="home_welcome_ns_link">My Account</a>
+        </div>
+        <div class="d-none d-sm-block">
+            <i class="fa-solid fa-circle-user pe-1 fa-lg"></i>
+            <a href="#" class="home_welcome_ns_link">Sign In</a>
+            <span> / </span>
+            <a href="#" class="home_welcome_ns_link">Register</a>
+        </div>
+        <div class="dropdown d-block d-sm-none">
+            <a class="" href="#" role="button" id="home_welcome_ns_drop" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-circle-user home_welcome_ns_drop_icon"></i>
+            </a>
+            <ul class="dropdown-menu p-0 home_welcome_ns_drop_box" aria-labelledby="home_welcome_ns_drop">
+              <li><a class="dropdown-item" href="#">My Account</a></li>
+              <li><a class="dropdown-item" href="#">Sign In</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- Welcome NearStore -->
     
 <!-- === Bootstrap JS === -->
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 <!-- Bootstrap JS -->
 
 <!-- === JS === -->
