@@ -1,8 +1,50 @@
-:root {
-    --black: #161616;
+@font-face{
+    src: url(../font/Montserrat-Black.ttf);
+    font-family: font-black;
+}
+@font-face{
+    src: url(../font/Montserrat-Bold.ttf);
+    font-family: font-bold;
+}
+@font-face{
+    src: url(../font/Montserrat-ExtraBold.ttf);
+    font-family: font-extra-bold;
+}
+@font-face{
+    src: url(../font/Montserrat-ExtraLight.ttf);
+    font-family: font-extra-light;
+}
+@font-face{
+    src: url(../font/Montserrat-Light.ttf);
+    font-family: font-light;
+}
+@font-face{
+    src: url(../font/Montserrat-Medium.ttf);
+    font-family: font-medium;
+}
+@font-face{
+    src: url(../font/Montserrat-Regular.ttf);
+    font-family: font-regular;
+}
+@font-face{
+    src: url(../font/Montserrat-SemiBold.ttf);
+    font-family: font-semi-bold;
+}
+@font-face{
+    src: url(../font/Montserrat-Thin.ttf);
+    font-family: font-thin;
 }
 
-/* === Home Page === */
+:root {
+    --black: #161616;
+    --primary-clr: #EA3A3A;
+}
+
+*{
+    font-family: 'font-medium', 'sans-serif';
+}
+
+/* =====  Home Page  ===== */
 
 /* Welcome NS */
 .home_welcome_ns{
@@ -11,11 +53,11 @@
 .home_welcome_ns_heading{
     font-size: 13px;
     color: var(--black);
-    font-weight: bold;
+    font-family: font-bold;
 }
 .home_welcome_ns_link{
     color: var(--black);
-    font-weight: 500;
+    font-family: font-medium;
     font-size: 13px;
     text-decoration: none;
 }
@@ -30,5 +72,24 @@
     font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: 600;
+    font-family: font-bold;
+}
+
+/* Search Header */
+.home_logo{
+    color: var(--primary-clr);
+    font-size: 22px;
+    font-family: font-extra-bold;
+}
+.home_search_header_call_box{
+    border-right: 2px solid #E9E9E9;
+}
+.home_search_header_icon_text{
+    font-size: 13px;
+    color: var(--black);
+}
+.home_search_header_call_number{
+    font-family: font-bold;
+    font-size: 15px;
+    color: var(--black);
 }
