@@ -106,3 +106,28 @@
 .home_policy_box_text{
     font-size: 14px;
 }
+
+/* Footer */
+.footer{
+    background-color: var(--black);
+}
+.footer_heading{
+    color: white;
+    font-family: font-bold;
+    font-size: 18px;
+}
+.footer_about{
+    color: white;
+    font-size: 16px;
+    font-family: font-regular;
+}
+.footer_list > a{
+    color: white;
+    font-family: font-regular;
+    text-decoration: none;
+    transition-duration: 0.3s;
+    font-size: 16px;
+}
+.footer_list > a:hover{
+    transform: translate(5px);
+}
