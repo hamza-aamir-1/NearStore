@@ -93,3 +93,16 @@
     font-size: 15px;
     color: var(--black);
 }
+
+/* Policy Boxes */
+.home_policy_boxes{
+    border: 2px solid #E9E9E9;
+    height: 100%;
+}
+.home_policy_box_heading{
+    font-size: 14px;
+    font-family: font-bold;
+}
+.home_policy_box_text{
+    font-size: 14px;
+}
