@@ -149,6 +149,54 @@
     font-size: 14px;
 }
 
+/* Hot Offers */
+.home_hot_offers_box{
+    border: 2px solid var(--primary-clr);
+}
+.home_hot_offers_timer{
+    background-color: var(--primary-clr);
+}
+.home_hot_offers_timer_time{
+    color: white;
+    font-family: font-bold;
+    font-size: 17px;
+}
+.home_hot_offers_timer_text{
+    color: white;
+    font-size: 15px;
+    font-family: font-regular;
+}
+.home_hot_offers_title{
+    font-family: font-bold;
+    color: black;
+    font-size: 16px;
+}
+.home_hot_offers_price{
+    font-family: font-bold;
+    color: black;
+    font-size: 16px;
+}
+.home_hot_offers_text{
+    color: var(--black);
+    font-size: 14px;
+}
+.home_hot_offers_stars{
+    color: #FAB005;
+}
+.home_hot_offers_btns{
+    z-index: 1;
+}
+.home_hot_offers_cart_btn{
+    font-size: 14px;
+    border: 1px solid var(--black);
+    color: var(--black);
+}
+.home_hot_offers_cart_btn:hover{
+    background-color: var(--primary-clr);
+    color: white;
+    border-color: var(--primary-clr);
+}
+
 /* Best Selling */
 .home_best_selling_heading > a{
     font-size: 16px;
@@ -200,5 +248,11 @@
         color: var(--black);
         display: flex;
         align-items: center;
+    }
+    .nav-link:focus{
+        color: var(--black);
+    }
+    .nav-link:hover{
+        color: white;
     }
 }
