@@ -237,6 +237,12 @@
     box-shadow: 15px 15px 35px rgb(230, 230, 230);
 }
 
+/* Compare Products */
+.home_compare_product_heading{
+    font-family: font-bold;
+    color: var(--black);
+}
+
 /* Footer */
 .footer{
     background-color: var(--black);
