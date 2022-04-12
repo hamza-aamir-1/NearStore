@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:active, :focus, :hover {
+    outline: 0 !important;
+    outline-offset: 0;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0;
+}
+
+li {list-style: none;}
+
+/* ----- Variable Define ----- */
+:root {
+    /* Background Colors */
+    --bg-primary: rgb(235, 51, 112);
+    --bg-white: #fff;
+    --bg-light-white: #f5f5f5;
+    
+    /* Text colors */
+    --text-white: #fff;
+    --text-black: #121212;
+    --text-danger: #f63440;
+    --text-grey: #aaa;
+    --text-dark-grey: #777;
+    --text-green: limegreen;
+
+    /* Font Style */
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    background: #fff !important;
+    color: var(--text-black);
+    overflow-x: hidden;
+}
+
+input,button,textarea,select  {
+    box-shadow: none !important;
+}
+
+.btn-primary {
+    background: var(--bg-primary);
+    border-color: var(--bg-primary);
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    box-shadow: none !important;
+    width: 100%;
+}
+.btn-primary:hover {
+    color: var(--bg-primary);
+    border-color: var(--bg-primary);
+    background: transparent;
+}
+.btn-primary:focus {
+    color: var(--bg-white);
+    border-color: var(--bg-primary);
+    background: var(--bg-primary);
+}
+
+/* 
+    ==========================================
+        Custom Scrollbar
+    ==========================================
+*/
+::-webkit-scrollbar {
+    width: 0.625rem;
+}
+::-webkit-scrollbar-track {
+    background: var(--white-color);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--grey-color);
+}
+
+/* 
+    ==========================================
+        Custom CSS Design
+    ==========================================
+*/
+
+.login-form {
+    margin: 15% auto;
+    width: 50%;
+}
+
+.form-control {
+    height: 5.3vh !important;
+}
+
+.logo {
+    /* position: relative; */
+    margin: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.login-content button {
+    background-color: var(--bg-primary) !important;
+    border: 1px solid transparent !important;
+    cursor: pointer;
+    padding: 9px !important;
+}
+.login-content button:hover {
+    opacity: 0.9;
+}
+.login-content input {
+    background-color: #f4f4f4 !important;
+    border: 1px solid #f4f4f4 !important;
+}
