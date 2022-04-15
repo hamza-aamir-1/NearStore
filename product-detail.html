@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Near Store | www.nearstore.com</title>
+
+    <!-- === Font Awesome CDN === -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome CDN -->
+
+    <!-- === Bootstrap Icons === -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- Bootstrap Icons -->
+
+    <!-- === Bootstrap CSS === -->
+    <link rel="stylesheet" href="old-assets/css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+
+    <!-- === CSS === -->
+    <link rel="stylesheet" href="old-assets/css/style.css">
+    <!-- CSS -->
+</head>
+<body class="bg-light">
+
+<!-- === Welcome NearStore === -->
+<header class="d-flex align-items-center px-4 py-3 home_welcome_ns">
+    <div class="text-uppercase home_welcome_ns_heading">
+        Welcome to NearStore
+    </div>
+    <div class="d-flex align-items-center ms-auto">
+        <div class="me-4 d-none d-sm-block">
+            <a href="#" class="home_welcome_ns_link">Contact Us</a>
+        </div>
+        <div class="me-4 d-none d-sm-block">
+            <a href="#" class="home_welcome_ns_link">My Account</a>
+        </div>
+        <div class="d-none d-sm-block">
+            <i class="fa-solid fa-circle-user pe-1 fa-lg"></i>
+            <a href="#" class="home_welcome_ns_link">Sign In</a>
+            <span> / </span>
+            <a href="#" class="home_welcome_ns_link">Register</a>
+        </div>
+        <div class="dropdown d-block d-sm-none">
+            <a class="" href="#" role="button" id="home_welcome_ns_drop" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-circle-user home_welcome_ns_drop_icon"></i>
+            </a>
+            <ul class="dropdown-menu p-0 home_welcome_ns_drop_box" aria-labelledby="home_welcome_ns_drop">
+              <li><a class="dropdown-item" href="#">My Account</a></li>
+              <li><a class="dropdown-item" href="#">Sign In</a></li>
+              <li><a class="dropdown-item" href="#">Register</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<!-- Welcome NearStore -->
+
+<!-- === Search Header === -->
+<header class="px-4 py-4 d-flex flex-row align-items-center justify-content-between">
+    
+    <!-- Logo -->
+    <div>
+        <div class="home_logo">NEARSTORE</div>
+    </div>
+
+    <!-- Search -->
+    <div>
+
+    </div>
+
+    <!-- Icons -->
+    <div class="d-flex flex-row align-items-end">
+
+        <div class="ps-2 pe-3 home_search_header_call_box">
+            <a href="#" class="text-decoration-none d-flex flex-row align-items-center">
+                <div>
+                    <img src="old-assets/img/telephone.png" width="30px" alt="">
+                </div>
+                <div class="ps-2">
+                    <div class="home_search_header_icon_text">
+                        Call us at:
+                    </div>
+                    <div class="home_search_header_call_number">
+                        +92 301 0069442
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="ps-3">
+            <a href="#" class="text-center text-decoration-none">
+                <div><img src="old-assets/img/love.png" width="30px" alt=""></div>
+                <div class="home_search_header_icon_text">Wishlist</div>
+            </a>
+        </div>
+
+        <div class="ps-3">
+            <a href="#" class="text-center text-decoration-none">
+                <div><img src="old-assets/img/compare.png" width="30px" alt=""></div>
+                <div class="home_search_header_icon_text">Compare</div>
+            </a>
+        </div>
+
+        <div class="ps-3">
+            <a href="#" class="text-center text-decoration-none">
+                <div><img src="old-assets/img/shopping-cart.png" width="30px" alt=""></div>
+                <div class="home_search_header_icon_text">Cart</div>
+            </a>
+        </div>
+
+    </div>
+
+</header>
+<!-- Search Header -->
+
+<!-- === Navbar === -->
+<nav class="navbar navbar-expand-lg py-0">
+    <div class="container-fluid px-4">
+
+    <a class="navbar-brand m-0" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <i class="fa-solid fa-bars pe-1"></i>
+        Browse Categories
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+    </ul>
+
+    <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <i class="fa-solid fa-bars pe-1 navbar-toggler-icon"></i>
+    </button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+        <ul class="navbar-nav justify-content-start flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Vendor
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                    <i class="bi bi-geo-alt pe-2" style="font-size: 18px;"></i>
+                    Track Order
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link d-flex align-items-center" href="#">
+                    <i class="bi bi-bag-heart pe-2" style="font-size: 18px;"></i>
+                    Daily Deals
+                </a>
+            </li>
+        </ul>
+
+        </div>
+      </div>
+
+    </div>
+</nav>
+<!-- Navbar -->
+
+<main class="container my-4">
+
+    <!-- === Breadcrumb === -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Products</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Product Details</li>
+        </ol>
+    </nav>
+    <!-- Breadcrumb -->
+
+    <section class="row g-4">
+
+        <!-- === Product Image === -->
+        <div class="col-lg-6">
+            <div>
+                <img src="old-assets/img/p-1.jpg" width="100%" alt="">
+            </div>
+        </div>
+        <!-- Product Image -->
+
+        <!-- === Product Title === -->
+        <div class="col-lg-6">
+            <div>
+
+                <!-- Title -->
+                <div class="product_detail_title">Galaxy Note Series Smartphone</div>
+
+                <!-- Short Description -->
+                <div class="product_detail_text mt-3">
+                    This is product short description. Capicola chuck tongue, anim consequat leberkas laborum ut enim bacon. Ribeye hamburger pastrami nisi ad consectetur dolor.
+                </div>
+
+                <!-- Features -->
+                <table class="mt-3">
+                    <tr>
+                        <td class="product_detail_sm_heading">Brand:</td>
+                        <td class="product_detail_text">Unknown</td>
+                    </tr>
+                    <tr>
+                        <td class="product_detail_sm_heading">Reference:</td>
+                        <td class="product_detail_text">XYZ-BL-064</td>
+                    </tr>
+                    <tr>
+                        <td class="product_detail_sm_heading">Availability:</td>
+                        <td class="product_detail_text">In Stock</td>
+                    </tr>
+                    <tr>
+                        <td class="product_detail_sm_heading">SKU:</td>
+                        <td class="product_detail_text">A234234</td>
+                    </tr>
+                    <tr>
+                        <td class="product_detail_sm_heading">Color:</td>
+                        <td class="product_detail_text"></td>
+                    </tr>
+                    <tr>
+                        <td class="product_detail_sm_heading">Variant:</td>
+                        <td class="product_detail_text"></td>
+                    </tr>
+                    <tr>
+                        <td class="product_detail_sm_heading">Quantity:</td>
+                        <td class="product_detail_text">
+                            <form action="" onsubmit="event.preventDefault()" class="product_detail_cart_quantity">
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepDown()">-</button>
+                                <input min="0" value="1" type="number">
+                                <button onclick="this.parentNode.querySelector('input[type=number]').stepUp()">+</button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+
+                <!-- Price -->
+                <div class="mt-3">
+                    <span class="product_detail_price pe-2">675 Rs.</span>
+                    <span class="product_detail_price_del text-secondary">730 Rs.</span>
+                </div>
+
+                <!-- Timer -->
+                <div class="align-items-center py-2 px-2 text-center product_detail_timer mt-3">
+                    <div>
+                        <img src="old-assets/img/clock.png" width="30px" alt="">
+                    </div>
+                    <div>
+                        <div class="product_detail_timer_time">02</div>
+                        <div class="product_detail_timer_text">Days</div>
+                    </div>
+                    <div>
+                        <div class="product_detail_timer_time">00</div>
+                        <div class="product_detail_timer_text">Hrs</div>
+                    </div>
+                    <div>
+                        <div class="product_detail_timer_time">05</div>
+                        <div class="product_detail_timer_text">Mins</div>
+                    </div>
+                    <div>
+                        <div class="product_detail_timer_time">35</div>
+                        <div class="product_detail_timer_text">Secs</div>
+                    </div>
+                </div>
+
+                <!-- CTA Buttons -->
+                <div class="mt-4">
+                    <form action="" class="product_detail_cta_buttons">
+                        <button>
+                            <i class="fa-solid fa-cart-plus pe-1 fa-lg"></i>
+                            Add to Cart
+                        </button>
+                        <button class="mx-2">
+                            <i class="fa-solid fa-heart fa-lg"></i>
+                        </button>
+                        <button>
+                            <i class="fa-solid fa-arrow-right-arrow-left fa-lg"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- Product Title -->
+
+    </section>
+
+</main>
+
+<!-- === Footer === -->
+<footer class="footer py-5">
+<div class="container-fluid">
+<div class="row">
+
+    <section class="col-lg-5 col-12 px-lg-5 px-4 pb-5 pb-lg-0 text-center text-lg-start">
+        <div>
+            <div class="footer_heading pb-3">
+                About NearStore
+            </div>
+            <div class="footer_about pt-1">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, ab. Provident eum accusantium dolorum nulla, fuga autem rerum commodi beatae amet similique et repellendus dignissimos tempora delectus saepe quo iure.
+            </div>
+        </div>
+    </section>
+
+    <section class="col-lg-3 col-6 px-lg-5 px-4 text-center text-lg-start">
+        <div>
+            <div class="footer_heading pb-3">
+                My Account
+            </div>
+            <div class="d-flex flex-column pt-1 footer_list">
+                <a href="#" class="pb-2">Product Support</a>
+                <a href="#" class="pb-2">Checkout</a>
+                <a href="#" class="pb-2">Shopping Cart</a>
+                <a href="#" class="pb-2">Wishlist</a>
+                <a href="#" class="pb-2">Redeem Voucher</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="col-lg-3 col-6 px-lg-5 px-4 text-center text-lg-start">
+        <div>
+            <div class="footer_heading pb-3">
+                Quick Links
+            </div>
+            <div class="d-flex flex-column pt-1 footer_list">
+                <a href="#" class="pb-2">Store Location</a>
+                <a href="#" class="pb-2">My Account</a>
+                <a href="#" class="pb-2">Orders Tracking</a>
+                <a href="#" class="pb-2">FAQs</a>
+            </div>
+        </div>
+    </section>
+
+</div>
+</div>
+</footer>
+<!-- Footer -->
+
+<!-- === Bootstrap JS === -->
+<script src="old-assets/js/bootstrap.bundle.min.js"></script>
+<!-- Bootstrap JS -->
+
+<!-- === JS === -->
+<script src="old-assets/js/index.js"></script>
+<!-- JS -->
+
+</body>
+</html>

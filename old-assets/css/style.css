@@ -282,3 +282,102 @@
         color: white;
     }
 }
+
+
+
+/* === Product Detail Page === */
+
+/* Breadcrumb */
+.breadcrumb-item{
+    color: var(--black) !important;
+    font-size: 14px;
+}
+.breadcrumb-item > a{
+    color: var(--black);
+    text-decoration: none;
+}
+
+/* Product Title */
+.product_detail_title{
+    font-size: 22px;
+    font-family: font-bold;
+    color: black;
+}
+.product_detail_text{
+    color: var(--black);
+    font-size: 14px;
+}
+.product_detail_sm_heading{
+    padding-right: 20px;
+    padding-top: 7px;
+    color: var(--black);
+    font-size: 14px;
+    font-family: font-bold;
+}
+.product_detail_price{
+    color: var(--primary-clr);
+    font-size: 22px;
+}
+.product_detail_price_del{
+    font-size: 22px;
+    text-decoration: line-through;
+}
+.product_detail_timer{
+    border: 2px solid var(--primary-clr);
+    border-radius: 10px;
+    display: inline-flex;
+}
+.product_detail_timer > div{
+    padding: 5px 10px;
+}
+.product_detail_timer_time{
+    font-family: font-bold;
+    font-size: 16px;
+}
+.product_detail_timer_text{
+    font-size: 14px;
+    font-family: font-regular;
+}
+.product_detail_cart_quantity{
+    border: 1px solid var(--primary-clr);
+}
+.product_detail_cart_quantity > button{
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    background-color: rgb(225, 225, 225);
+    transition-duration: 0.3s;
+}
+.product_detail_cart_quantity > button:hover{
+    background-color: var(--primary-clr);
+    color: white;
+}
+.product_detail_cart_quantity > input{
+    text-align: center;
+    width: 60px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+}
+.product_detail_cart_quantity > input:focus{
+    outline: none;
+}
+.product_detail_cart_quantity > input::-webkit-outer-spin-button,
+.product_detail_cart_quantity > input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.product_detail_cta_buttons > button{
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(225, 225, 225);
+    transition-duration: 0.3s;
+    color: var(--black);
+    border-radius: 5px;
+}
+.product_detail_cta_buttons > button:first-child,
+.product_detail_cta_buttons > button:hover{
+    background-color: var(--primary-clr);
+    color: white;
+}
