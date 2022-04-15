@@ -381,3 +381,20 @@
     background-color: var(--primary-clr);
     color: white;
 }
+
+/* Product Description */
+.product_detail_description{
+    border: 1px solid rgb(225, 225, 225);
+}
+
+/* Product Comments */
+.product_detail_cmnts_like_btn{
+    box-shadow: none;
+}
+.product_detail_cmnts_like_btn > i{
+    color: gray;
+    transition-duration: 0.3s;
+}
+.product_detail_cmnts_like_btn:hover > i{
+    transform: scale(1.2);
+}
