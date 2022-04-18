@@ -26,6 +26,7 @@
 <body class="bg-light">
 
 <main class="container my-5">
+<form action="">
 <div class="row g-4">
 
     <!-- === Checkout Info Box === -->
@@ -34,14 +35,16 @@
 
             <!-- === Personal Information === -->
             <section>
+            <a class="text-decoration-none" data-bs-toggle="collapse" href="#personalInformation" role="button" aria-expanded="false" aria-controls="personalInformation">
             <header class="checkout_box_border d-flex align-items-center py-3 px-4">
                 <div class="checkout_info_header_number me-2">1</div>
                 <div class="checkout_info_header_heading">
                     Personal Information
                 </div>
             </header>
+            </a>
+            <div class="collapse" id="personalInformation">
             <main class="d-flex py-3 px-4 checkout_info_border">
-                <form action="">
                     <table class="">
 
                         <!-- Gender -->
@@ -94,7 +97,7 @@
                         </tr>
 
                         <!-- Create Account Text -->
-                        <tr>
+                        <!-- <tr>
                             <td class="checkout_table_td" colspan="2">
                                 <div class="checkout_price_box_text fw-bold">
                                     Create an account <span class="fw-light">(optional)</span>
@@ -103,19 +106,19 @@
                                     And save time on your next order!
                                 </div>
                             </td>
-                        </tr>
+                        </tr> -->
 
                         <!-- Password -->
-                        <tr>
+                        <!-- <tr>
                             <td class="checkout_price_box_text checkout_table_td">Password</td>
                             <td class="checkout_table_td">
                                 <input class="checkout_input" type="password" name="" id="">
                                 <button class="checkout_password_btn btn shadow-none">Show</button>
                             </td>
-                        </tr>
+                        </tr> -->
 
                         <!-- Birth Date -->
-                        <tr>
+                        <!-- <tr>
                             <td class="checkout_price_box_text checkout_table_td">Birthdate</td>
                             <td class="checkout_table_td">
                                 <div>
@@ -125,7 +128,7 @@
                                     (E.g.: 05/31/1970)
                                 </div>
                             </td>
-                        </tr>
+                        </tr> -->
 
                         <tr>
                             <td></td>
@@ -154,18 +157,78 @@
                         </tr>
                         
                     </table>
-                </form>
             </main>
+            </div>
             </section>
 
             <!-- === Addresses -->
             <section class="mt-4">
+                <a class="text-decoration-none" data-bs-toggle="collapse" href="#addresses" role="button" aria-expanded="false" aria-controls="addresses">
                 <header class="checkout_box_border d-flex align-items-center py-3 px-4">
                     <div class="checkout_info_header_number me-2">2</div>
                     <div class="checkout_info_header_heading">
                         Addresses
                     </div>
                 </header>
+                </a>
+                <div class="collapse" id="addresses">
+                    <main class="d-flex py-3 px-4 checkout_info_border">
+                            <table class="">
+        
+                                <!-- Address -->
+                                <tr>
+                                    <td class="checkout_price_box_text checkout_table_td">Address</td>
+                                    <td class="checkout_table_td">
+                                        <input class="checkout_input" type="text" name="" id="">
+                                    </td>
+                                </tr>
+
+                                <!-- Phone Number -->
+                                <tr>
+                                    <td class="checkout_price_box_text checkout_table_td">Phone Number</td>
+                                    <td class="checkout_table_td">
+                                        <input class="checkout_input" type="tel" name="" id="">
+                                    </td>
+                                </tr>
+        
+                                <!-- City -->
+                                <tr>
+                                    <td class="checkout_price_box_text checkout_table_td">City</td>
+                                    <td class="checkout_table_td">
+                                        <input class="checkout_input" type="text" name="" id="">
+                                    </td>
+                                </tr>
+        
+                                <!-- Zip/Postal Code -->
+                                <tr>
+                                    <td class="checkout_price_box_text checkout_table_td">Zip/Postal Code</td>
+                                    <td class="checkout_table_td">
+                                        <input class="checkout_input" type="number" name="" id="">
+                                    </td>
+                                </tr>
+
+                                <!-- Province -->
+                                <tr>
+                                    <td class="checkout_price_box_text checkout_table_td">Province</td>
+                                    <td class="checkout_table_td">
+                                        <select name="" id="" class="checkout_input">
+                                            <option value="">Punjab</option>
+                                            <option value="">Sindh</option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <!-- Country -->
+                                <tr>
+                                    <td class="checkout_price_box_text checkout_table_td">Country</td>
+                                    <td class="checkout_table_td">
+                                        <input class="checkout_input" type="text" value="Pakistan" name="" id="" disabled>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                    </main>
+                </div>
             </section>
 
             <!-- === Shipping Method -->
@@ -306,6 +369,7 @@
     <!-- Checkout Price Box -->
 
 </div>
+</form>
 </main>
 
 <!-- === Bootstrap JS === -->

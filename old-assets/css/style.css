@@ -427,11 +427,12 @@
 }
 .checkout_info_header_heading{
     font-size: 18px;
+    color: var(--black);
 }
 .checkout_table_td{
     vertical-align: top;
     padding: 10px 0px;
-    min-width: 100px;
+    min-width: 130px;
 }
 .checkout_input{
     font-size: 14px;
