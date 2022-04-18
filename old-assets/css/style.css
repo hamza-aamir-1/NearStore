@@ -428,6 +428,30 @@
 .checkout_info_header_heading{
     font-size: 18px;
 }
+.checkout_table_td{
+    vertical-align: top;
+    padding: 10px 0px;
+    min-width: 100px;
+}
+.checkout_input{
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.checkout_input:focus{
+    outline: none;
+    border: 1px solid gray;
+}
+.checkout_password_btn{
+    font-size: 14px;
+    padding: 5px 10px;
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+.checkout_password_btn:hover{
+    border: 1px solid gray;
+}
 
 /* Checkout Price Box */
 .checkout_price_box_text{

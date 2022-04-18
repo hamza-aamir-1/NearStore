@@ -42,64 +42,64 @@
             </header>
             <main class="d-flex py-3 px-4 checkout_info_border">
                 <form action="">
-                    <table>
+                    <table class="">
 
                         <!-- Gender -->
                         <tr>
-                            <td>Social title</td>
-                            <td class="d-flex">
-                                <div>
-                                    <input type="radio" name="" id="">
-                                    <label for="">Mr.</label>
+                            <td class="checkout_price_box_text checkout_table_td">Social title</td>
+                            <td class="d-flex checkout_table_td">
+                                <div class="me-3">
+                                    <input type="radio" name="checkout_gender" id="male">
+                                    <label for="male" class="checkout_price_box_text">Mr.</label>
                                 </div>
                                 <div>
-                                    <input type="radio" name="" id="">
-                                    <label for="">Mrs.</label>
+                                    <input type="radio" name="checkout_gender" id="female">
+                                    <label for="female" class="checkout_price_box_text">Mrs.</label>
                                 </div>
                             </td>
                         </tr>
 
                         <!-- First Name -->
                         <tr>
-                            <td>First name</td>
-                            <td>
+                            <td class="checkout_price_box_text checkout_table_td">First name</td>
+                            <td class="checkout_table_td">
                                 <div>
-                                    <input type="text" name="" id="">
+                                    <input class="checkout_input" type="text" name="" id="">
                                 </div>
-                                <div>
-                                    Only letters and the dot (.) character, followed by a space, are allowed.
+                                <div class="checkout_price_box_text text-secondary text">
+                                    <small>Only letters and the dot (.) character, followed by a space, are allowed.</small>
                                 </div>
                             </td>
                         </tr>
 
                         <!-- Last Name -->
                         <tr>
-                            <td>Last name</td>
-                            <td>
+                            <td class="checkout_price_box_text checkout_table_td">Last name</td>
+                            <td class="checkout_table_td">
                                 <div>
-                                    <input type="text" name="" id="">
+                                    <input class="checkout_input" type="text" name="" id="">
                                 </div>
-                                <div>
-                                    Only letters and the dot (.) character, followed by a space, are allowed.
+                                <div class="checkout_price_box_text text-secondary">
+                                    <small>Only letters and the dot (.) character, followed by a space, are allowed.</small>
                                 </div>
                             </td>
                         </tr>
 
                         <!-- Email -->
                         <tr>
-                            <td>Email</td>
-                            <td>
-                                <input type="email" name="" id="">
+                            <td class="checkout_price_box_text checkout_table_td">Email</td>
+                            <td class="checkout_table_td">
+                                <input class="checkout_input" type="email" name="" id="">
                             </td>
                         </tr>
 
                         <!-- Create Account Text -->
                         <tr>
-                            <td>
-                                <div>
-                                    Create an account (optional)
+                            <td class="checkout_table_td" colspan="2">
+                                <div class="checkout_price_box_text fw-bold">
+                                    Create an account <span class="fw-light">(optional)</span>
                                 </div>
-                                <div>
+                                <div class="checkout_price_box_text text-secondary">
                                     And save time on your next order!
                                 </div>
                             </td>
@@ -107,22 +107,21 @@
 
                         <!-- Password -->
                         <tr>
-                            <td>Password</td>
-                            <td>
-                                <input type="password" name="" id="">
-                                <button>Show</button>
+                            <td class="checkout_price_box_text checkout_table_td">Password</td>
+                            <td class="checkout_table_td">
+                                <input class="checkout_input" type="password" name="" id="">
+                                <button class="checkout_password_btn btn shadow-none">Show</button>
                             </td>
-                            <td>Optional</td>
                         </tr>
 
                         <!-- Birth Date -->
                         <tr>
-                            <td>Birthdate</td>
-                            <td>
+                            <td class="checkout_price_box_text checkout_table_td">Birthdate</td>
+                            <td class="checkout_table_td">
                                 <div>
                                     <input type="date" name="" id="">
                                 </div>
-                                <div>
+                                <div class="checkout_price_box_text text-secondary">
                                     (E.g.: 05/31/1970)
                                 </div>
                             </td>
@@ -130,33 +129,27 @@
 
                         <tr>
                             <td></td>
-                            <td>
+                            <td class="checkout_table_td">
                                 <div>
-                                    <input type="checkbox" name="" id="">
-                                    <label for="">Customer data privacy</label>
+                                    <input class="me-2" type="checkbox" name="" id="checkout_checkbox_data_privacy">
+                                    <label for="checkout_checkbox_data_privacy" class="checkout_price_box_text">Customer data privacy</label>
                                 </div>
-                                <div>
-                                    The personal data you provide is used to answer queries, process orders or allow access to specific information. You have the right to modify and delete all the personal information found in the "My Account" page.
+                                <div class="checkout_price_box_text text-secondary">
+                                    <small>The personal data you provide is used to answer queries, process orders or allow access to specific information. You have the right to modify and delete all the personal information found in the "My Account" page.</small>
                                 </div>
                             </td>
                         </tr>
 
                         <tr>
                             <td></td>
-                            <td>
+                            <td class="checkout_table_td">
                                 <div>
-                                    <input type="checkbox" name="" id="">
-                                    <label for="">Sign up for our newsletter</label>
+                                    <input class="me-2" type="checkbox" name="" id="checkout_checkbox_newletter">
+                                    <label for="checkout_checkbox_newletter" class="checkout_price_box_text">Sign up for our newsletter</label>
                                 </div>
-                                <div>
-                                    You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.
+                                <div class="checkout_price_box_text text-secondary">
+                                    <small>You may unsubscribe at any moment. For that purpose, please find our contact info in the legal notice.</small>
                                 </div>
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td>
-                                <button>Continue</button>
                             </td>
                         </tr>
                         
@@ -201,9 +194,16 @@
 
     <!-- === Checkout Price Box -->
     <section class="col-lg-5">
-        <div class="checkout_box_border py-3 px-4">
+    <div>
+        <header class="checkout_box_border d-flex align-items-center py-3 px-4">
+            <div class="checkout_info_header_number me-2">5</div>
+            <div class="checkout_info_header_heading">
+                Your Order
+            </div>
+        </header>
+        <main class="checkout_info_border py-3 px-4">
             <div class="checkout_price_box_text py-1">
-                1 item
+                2 item
             </div>
             <div class="py-1">
                 <a class="checkout_price_box_text" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -220,14 +220,14 @@
                         </div>
                         <div class="checkout_price_box_text">
                             <div class="d-flex align-items-center">
-                                <div>1</div>
+                                <div>3</div>
                                 <div class="px-1"> x </div>
                                 <div>
-                                    <a href="#" class="checkout_price_box_text text-decoration-none">Galaxy Note Series Smartphone</a>
+                                    <a href="#" class="checkout_price_box_text text-decoration-none">Infinix Note Series Smartphone</a>
                                 </div>
                             </div>
                             <div>
-                                Rs. 2750
+                                Rs. 27050
                             </div>
                         </div>
                     </div>
@@ -236,7 +236,7 @@
                     <div class="d-flex align-items-center py-2">
                         <div class="pe-2">
                             <a href="#">
-                                <img src="old-assets/img/p-1.jpg" width="50px" alt="">
+                                <img src="old-assets/img/p-3.jpg" width="50px" alt="">
                             </a>
                         </div>
                         <div class="checkout_price_box_text">
@@ -248,7 +248,7 @@
                                 </div>
                             </div>
                             <div>
-                                Rs. 2750
+                                Rs. 13750
                             </div>
                         </div>
                     </div>
@@ -300,7 +300,8 @@
                     Have a promo code?
                 </a>
             </div>
-        </div>
+        </main>
+    </div>
     </section>
     <!-- Checkout Price Box -->
 
