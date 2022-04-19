@@ -231,24 +231,66 @@
                 </div>
             </section>
 
-            <!-- === Shipping Method -->
+            <!-- === Shipping Method === -->
             <section class="mt-4">
+                <a class="text-decoration-none" data-bs-toggle="collapse" href="#shippingMethod" role="button" aria-expanded="false" aria-controls="shippingMethod">
                 <header class="checkout_box_border d-flex align-items-center py-3 px-4">
                     <div class="checkout_info_header_number me-2">3</div>
                     <div class="checkout_info_header_heading">
                         Shipping Method
                     </div>
                 </header>
+                </a>
+                <div class="collapse" id="shippingMethod">
+                    <main class="py-3 px-4 checkout_info_border">
+                        <div>
+                            <input type="radio" name="shippingMethod" id="freeCarrier" class="me-2">
+                            <label for="freeCarrier" class="checkout_price_box_text">Free Carrier (Delivery next week! - Free)</label>
+                        </div>
+                        <div class="my-2">
+                            <input type="radio" name="shippingMethod" id="megaExpress" class="me-2">
+                            <label for="megaExpress" class="checkout_price_box_text">Mega Express (Pick up in-store - $7.00 tax excl.)</label>
+                        </div>
+                        <div class="checkout_price_box_text">
+                            If you would like to add a comment about your order, please write it in the field below.
+                        </div>
+                        <div class="mt-2">
+                            <textarea name="" id="" cols="30" rows="10" class="form-control shadow-none checkout_input"></textarea>
+                        </div>
+                    </main>
+                </div>
             </section>
 
-            <!-- === Payment -->
+            <!-- === Payment === -->
             <section class="mt-4">
+                <a class="text-decoration-none" data-bs-toggle="collapse" href="#payment" role="button" aria-expanded="false" aria-controls="payment">
                 <header class="checkout_box_border d-flex align-items-center py-3 px-4">
                     <div class="checkout_info_header_number me-2">4</div>
                     <div class="checkout_info_header_heading">
                         Payment
                     </div>
                 </header>
+                </a>
+                <div class="collapse" id="payment">
+                    <main class="py-3 px-4 checkout_info_border">
+                        <div>
+                            <input type="radio" name="paymentRadio" id="paymentCod" class="me-2">
+                            <label for="paymentCod" class="checkout_price_box_text">Cash on Delivery</label>
+                        </div>
+                        <div class="my-2">
+                            <input type="radio" name="paymentRadio" id="paymentBank" class="me-2">
+                            <label for="paymentBank" class="checkout_price_box_text">Pay by Bank Wire</label>
+                        </div>
+                        <div>
+                            <input class="me-2" type="checkbox" name="" id="checkout_checkbox_terms_service">
+                            <label for="checkout_checkbox_terms_service" class="checkout_price_box_text">
+                                I agree to the 
+                                <a href="#" class="checkout_price_box_text">terms of service</a>
+                                and will adhere to them unconditionally.
+                            </label>
+                        </div>
+                    </main>
+                </div>
             </section>
 
         </div>
@@ -358,12 +400,20 @@
                     Rs. 0
                 </div>
             </div>
-            <div class="py-1">
-                <a href="#" class="checkout_price_box_text">
+            <div class="py-1 d-flex">
+                <!-- <a href="#" class="checkout_price_box_text">
                     Have a promo code?
-                </a>
+                </a> -->
+                <input type="number" placeholder="Promo Code" class="form-control checkout_input shadow-none rounded-0">
+                <button class="checkout_promocode_btn">Add</button>
             </div>
         </main>
+
+        <!-- Place Order Button -->
+        <div class="mt-4">
+            <button type="submit" class="checkout_place_order_btn form-control shadow-none">Place Order</button>
+        </div>
+
     </div>
     </section>
     <!-- Checkout Price Box -->

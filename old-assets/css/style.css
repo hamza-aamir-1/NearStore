@@ -453,6 +453,17 @@
 .checkout_password_btn:hover{
     border: 1px solid gray;
 }
+.checkout_promocode_btn{
+    font-size: 14px;
+    padding: 5px 15px;
+    background-color: var(--primary-clr);
+    color: white;
+    border: none;
+    transition-duration: 0.3s;
+}
+.checkout_promocode_btn:hover{
+    background-color: var(--black);
+}
 
 /* Checkout Price Box */
 .checkout_price_box_text{
@@ -466,4 +477,24 @@
     font-size: 16px;
     color: black;
     font-weight: 600;
+}
+.checkout_place_order_btn{
+    font-size: 16px;
+    padding: 10px 15px;
+    background-color: var(--primary-clr);
+    color: white;
+    border: none;
+    transition-duration: 0.3s;
+}
+.checkout_place_order_btn:hover{
+    background-color: var(--black);
+    color: white;
+}
+.checkout_place_order_btn:active{
+    color: white;
+    background-color: var(--primary-clr);
+}
+.checkout_place_order_btn:focus{
+    color: white;
+    background-color: var(--black);
 }
