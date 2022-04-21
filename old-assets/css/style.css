@@ -285,6 +285,32 @@
 
 
 
+/* === Products Page === */
+.products_page_gray_box{
+    border: 1px solid silver;
+    background-color: rgb(230, 230, 230);
+}
+.products_page_filter_header{
+    font-size: 18px;
+}
+
+/* Filter */
+.product_page_filter_box_border{
+    border: 1px solid silver;
+    border-top: none;
+}
+.product_page_filter_heading{
+    font-size: 14px;
+    color: var(--black);
+    font-family: font-bold;
+}
+.product_page_filter_text{
+    font-size: 14px;
+    color: var(--black);
+}
+
+
+
 /* === Product Detail Page === */
 
 /* Breadcrumb */
