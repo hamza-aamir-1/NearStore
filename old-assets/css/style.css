@@ -411,6 +411,18 @@ input[type=checkbox] {
 }
 
 /* Products */
+.products_page_filter_btn_offcanvas{
+    border: none;
+    background-color: var(--primary-clr);
+    color: white;
+    font-size: 14px;
+    padding: 5px 20px;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+}
+.products_page_filter_btn_offcanvas:hover{
+    background-color: var(--black);
+}
 .product_page_filter_sort_dropdown{
     font-size: 14px;
     outline: none;
@@ -506,6 +518,26 @@ input[type=checkbox] {
     font-size: 16px;
     font-family: font-bold;
     color: var(--black);
+}
+.products_page_pagination_boxes > a{
+    color: var(--black);
+    text-decoration: none;
+}
+.products_page_pagination_boxes > a > div{
+    border: 1px solid gray;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 3px;
+    transition-duration: 0.3s;
+}
+.products_page_pagination_boxes > a > div:hover{
+    /* border: 1px solid var(--primary-clr); */
+    background-color: var(--primary-clr);
+    color: white;
+    border-color: var(--primary-clr);
 }
 
 

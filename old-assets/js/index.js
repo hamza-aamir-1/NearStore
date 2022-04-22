@@ -1,5 +1,29 @@
 // === Products Page ===
 
+// Sub Category Carousel
+$('.products_page_subcategory_carousel').owlCarousel({
+    loop:true,
+    margin:20,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:2,
+            nav:true,
+            loop:false
+        },
+        600:{
+            items:4,
+            nav:false,
+            loop:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
 // Price Range Slider in Filter
 function getVals(){
     // Get slider values

@@ -140,7 +140,7 @@
 
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NearStore</h5>
           <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -207,10 +207,56 @@
     </nav>
     <!-- Breadcrumb -->
 
-    <div class="row">
+    <!-- === Sub Category === -->
+    <section class="my-5">
+        <div class="products_page_filter_header">
+            Subcategories
+        </div>
+        <div class="owl-carousel products_page_subcategory_carousel mt-4">
+            <div class="item">
+                <div>
+                    <a href="#" class="text-decoration-none">
+                        <div>
+                            <img src="old-assets/img/p-0.jpg" width="100%" alt="" class="rounded-circle">
+                        </div>
+                        <div class="products_page_product_title text-decoration-none text-center mt-3">
+                            Men Collection
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <a href="#" class="text-decoration-none">
+                        <div>
+                            <img src="old-assets/img/p-1.jpg" width="100%" alt="" class="rounded-circle">
+                        </div>
+                        <div class="products_page_product_title text-decoration-none text-center mt-3">
+                            Women Collection
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="item">
+                <div>
+                    <a href="#" class="text-decoration-none">
+                        <div>
+                            <img src="old-assets/img/p-3.jpg" width="100%" alt="" class="rounded-circle">
+                        </div>
+                        <div class="products_page_product_title text-decoration-none text-center mt-3">
+                            Kids Collection
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Sub Category -->
+
+    <div class="row navbar-expand-lg">
     <!-- === Filter === -->
     <section class="col-lg-3">
-        <form action="">
+        <form action="" class="offcanvas offcanvas-start overflow-auto" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
         <div class="">
 
             <div class="products_page_gray_box products_page_filter_header p-3">
@@ -335,8 +381,17 @@
             
             <!-- Filter -->
             <div class="products_page_gray_box p-3 d-flex justify-content-between">
+
                 <div class="d-flex align-items-center">
-                    <div class="product_page_filter_heading pe-2">
+                    <!-- Off Canvas Filter -->
+                    <div class="pe-2">
+                        <button class="shadow-none d-lg-none d-block products_page_filter_btn_offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter" aria-controls="offcanvasFilter">
+                            <i class="fa-solid fa-filter pe-1"></i>
+                            Filter
+                        </button>
+                    </div>
+                    <!-- Off Canvas Filter -->
+                    <div class="product_page_filter_heading pe-2 d-md-block d-none">
                         Sort by:
                     </div>
                     <div>
@@ -350,8 +405,9 @@
                         </select>
                     </div>
                 </div>
+
                 <div class="d-flex align-items-center">
-                    <div class="product_page_filter_heading pe-2">
+                    <div class="product_page_filter_heading pe-2 d-md-block d-none">
                         Show:
                     </div>
                     <div>
@@ -362,6 +418,7 @@
                         </select>
                     </div>
                 </div>
+
             </div>
             <!-- Filter -->
 
@@ -884,6 +941,29 @@
 
             </section>
             <!-- Products -->
+
+            <div class="products_page_gray_box p-3 d-flex justify-content-between align-items-center">
+                <div class="product_page_filter_text">
+                    Showing 1-10 of 12 item(s)
+                </div>
+                <div class="products_page_pagination_boxes d-flex">
+                    <a href="#">
+                        <div><i class="fa-solid fa-angles-left"></i></div>
+                    </a>
+                    <a href="#">
+                        <div>1</div>
+                    </a>
+                    <a href="#">
+                        <div>2</div>
+                    </a>
+                    <a href="#">
+                        <div>3</div>
+                    </a>
+                    <a href="#">
+                        <div><i class="fa-solid fa-angles-right"></i></div>
+                    </a>
+                </div>
+            </div>
 
         </div>
     </section>
