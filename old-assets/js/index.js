@@ -58,9 +58,29 @@ function getVals(){
 // === Product Details Page ===
 
 // Products in Same Category
-$('.owl-carousel').owlCarousel({
+$('.product_detail_same_category_carousel').owlCarousel({
     loop:true,
     margin:20,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        992:{
+            items:3
+        },
+        1200:{
+            items:5
+        }
+    }
+})
+
+// Customers also Bought
+$('.product_detail_customer_bought_carousel').owlCarousel({
+    loop:true,
     nav:true,
     responsive:{
         0:{
