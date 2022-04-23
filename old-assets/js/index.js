@@ -71,7 +71,7 @@ $('.product_detail_image_gallery').owlCarousel({
     responsiveClass:true,
     responsive:{
         0:{
-            items:1,
+            items:2,
             nav:true
         },
         600:{
@@ -93,7 +93,7 @@ $('.product_detail_same_category_carousel').owlCarousel({
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:2
@@ -113,7 +113,7 @@ $('.product_detail_customer_bought_carousel').owlCarousel({
     nav:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:2
