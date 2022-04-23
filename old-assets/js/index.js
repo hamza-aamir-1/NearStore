@@ -57,6 +57,35 @@ function getVals(){
 
 // === Product Details Page ===
 
+// Product Image Gallery
+function productDetailImageGallery(imgs) {
+    // Get the expanded image
+    var expandImg = document.getElementById("product_detail_expanded_image");
+    // Use the same src in the expanded image as the image being clicked on from the grid
+    expandImg.src = imgs.src;
+}
+
+$('.product_detail_image_gallery').owlCarousel({
+    loop:true,
+    margin:15,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
+
 // Products in Same Category
 $('.product_detail_same_category_carousel').owlCarousel({
     loop:true,

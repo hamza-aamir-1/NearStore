@@ -564,12 +564,28 @@ input[type=checkbox] {
     color: var(--black);
     font-size: 14px;
 }
+.product_detail_text_not_available{
+    color: var(--primary-clr);
+    font-family: font-bold;
+}
 .product_detail_sm_heading{
     padding-right: 20px;
     padding-top: 7px;
     color: var(--black);
     font-size: 14px;
     font-family: font-bold;
+}
+.product_detail_color_btns > button{
+    background-color: silver;
+    border: none;
+    width: 25px;
+    height: 25px;
+    margin: 0px 2px;
+    transition-duration: 0.3s;
+}
+.product_detail_color_btns > button:hover,
+.product_detail_color_btns > button:focus{
+    transform: scale(1.2);
 }
 .product_detail_price{
     color: var(--primary-clr);
@@ -597,6 +613,7 @@ input[type=checkbox] {
 }
 .product_detail_cart_quantity{
     border: 1px solid var(--primary-clr);
+    display: inline-block;
 }
 .product_detail_cart_quantity > button{
     border: none;
@@ -654,6 +671,67 @@ input[type=checkbox] {
 }
 .product_detail_cmnts_like_btn:hover > i{
     transform: scale(1.2);
+}
+
+/* Write Review */
+.product_detail_write_review_btn{
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(225, 225, 225);
+    transition-duration: 0.3s;
+    color: var(--black);
+    border-radius: 5px;
+}
+.product_detail_write_review_btn:hover{
+    background-color: var(--primary-clr);
+    color: white;
+}
+.product_detail_write_review_input > input:focus,
+.product_detail_write_review_input > textarea:focus{
+    border: 1px solid var(--primary-clr);
+}
+.product_detail_write_review_input > textarea{
+    height: 150px !important;
+    resize: none;
+}
+.product_detail_write_review_rating{
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-direction: row-reverse ;
+}
+.product_detail_write_review_rating input{
+    position: relative;
+    width: 20px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-appearance: none;
+    appearance: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product_detail_write_review_rating input::before{
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 30px;
+    position: absolute;
+    left: 4px;
+    color: #030b0f;
+    transition: 0.3s;
+}
+.product_detail_write_review_rating input:nth-child(2n + 1)::before{
+    right: 4px;
+    left: initial;
+}
+.product_detail_write_review_rating input:hover ~ input::before,
+.product_detail_write_review_rating input:hover::before,
+.product_detail_write_review_rating input:checked ~ input::before,
+.product_detail_write_review_rating input:checked::before{
+    color: orange;
 }
 
 /* Customer also Bought */
