@@ -258,7 +258,7 @@
                     <td class="fw-bolder track_order_table_item">Tracking Status</td>
                 </tr>
             </thead>
-            <tr class="track_order_table_row">
+            <tr class="track_order_table_row" data-bs-toggle="collapse" data-bs-target="#track_order_row_collapse" aria-expanded="false" aria-controls="track_order_row_collapse">
                 <td class="track_order_table_item">Brown Long Shoes</td>
                 <td class="track_order_table_item">2</td>
                 <td class="track_order_table_item">FSD1357924680</td>
@@ -281,8 +281,11 @@
     <!-- Track Orders Table -->
 
     <!-- === Track Order Details === -->
-    <section class="my-5">
-            <div class="row">
+    <section class="my-5" class="collapse" id="track_order_row_collapse">
+            <div class="track_order_heading">
+                #FSD1357924680:
+            </div>
+            <div class="row mt-5">
                 <div class="col-12">
                     <div class="d-flex justify-content-between">
                         <div class="order_tracking_graph order_tracking_completed">
