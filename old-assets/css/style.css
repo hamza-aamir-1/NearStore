@@ -906,7 +906,8 @@ input[type=checkbox] {
 	height: 30px;
 	width: 30px;
 	border: 0px solid #AFAFAF;
-	background-color: #f7be16;
+	background-color: gray;
+    /* #f7be16 yellow */
 	margin: 0 auto;
 	transition: background 0.25s linear;
 	-webkit-transition: background 0.25s linear;
@@ -928,9 +929,10 @@ input[type=checkbox] {
 	opacity: 0;
 }
 .order_tracking_graph.order_tracking_completed .order_tracking_is_complete{
-	border-color: #27aa80;
+	border-color: var(--primary-clr);
+    /* #27aa80 Green */
 	border-width: 0px;
-	background-color: #27aa80;
+	background-color: var(--primary-clr);
 }
 .order_tracking_graph.order_tracking_completed .order_tracking_is_complete:after {
 	border-color: #fff;
@@ -954,11 +956,11 @@ input[type=checkbox] {
 	display: block;
 	height: 3px;
 	width: calc(100% - 40px);
-	background-color: #f7be16;
+	background-color: gray;
 	top: 13px;
 	position: absolute;
 	left: calc(-50% + 20px);
 	z-index: 0;
 }
 .order_tracking_graph:first-child:before{display: none;}
-.order_tracking_graph.order_tracking_completed:before{background-color: #27aa80;}
+.order_tracking_graph.order_tracking_completed:before{background-color: var(--primary-clr);}
