@@ -67,7 +67,26 @@
 
     <!-- Search -->
     <div>
-
+        <form action="" class="d-flex align-items-center home_search_box">
+            <div class="dropdown home_search_box_dropdown">
+                <button class="btn dropdown-toggle shadow-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  All Categories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </div>
+            <div>
+                <input type="search" class="home_search_box_input" placeholder="Search" name="" id="">
+            </div>
+            <div>
+                <button type="submit" class="btn shadow-none text-secondary">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+        </form>
     </div>
 
     <!-- Icons -->
@@ -98,13 +117,6 @@
 
         <div class="ps-3">
             <a href="#" class="text-center text-decoration-none">
-                <div><img src="old-assets/img/compare.png" width="30px" alt=""></div>
-                <div class="home_search_header_icon_text">Compare</div>
-            </a>
-        </div>
-
-        <div class="ps-3">
-            <a href="#" class="text-center text-decoration-none">
                 <div><img src="old-assets/img/shopping-cart.png" width="30px" alt=""></div>
                 <div class="home_search_header_icon_text">Cart</div>
             </a>
@@ -119,11 +131,11 @@
 <nav class="navbar navbar-expand-lg py-0 home_navbar">
     <div class="container-fluid px-4">
 
-    <a class="navbar-brand m-0 home_navbar_brand" href="#" id="offcanvasNavbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="navbar-brand m-0 home_navbar_brand dropdown-toggle" href="#" id="browseCategoriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         <i class="fa-solid fa-bars pe-1"></i>
         Browse Categories
     </a>
-    <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+    <ul class="dropdown-menu home_navbar_browse_list" aria-labelledby="browseCategoriesDropdown">
         <li><a class="dropdown-item" href="#">Action</a></li>
         <li><a class="dropdown-item" href="#">Another action</a></li>
         <li><a class="dropdown-item" href="#">Something else here</a></li>
@@ -738,32 +750,6 @@
 </div>
 </section>
 <!-- Best Selling -->
-
-<!-- === Compare Products === -->
-<section class="container-fluid px-4 my-5">
-<div class="row">
-
-<div class="col-lg-4">
-<div>
-    <h4 class="home_compare_product_heading">Compare Products</h4>
-</div>
-</div>
-
-<div class="col-lg-4">
-<div>
-    
-</div>
-</div>
-
-<div class="col-lg-4">
-<div>
-    
-</div>
-</div>
-
-</div>
-</section>
-<!-- Compare Products -->
 
 <!-- === Footer === -->
 <footer class="footer py-5">
