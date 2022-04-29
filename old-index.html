@@ -30,19 +30,19 @@
         Welcome to NearStore
     </div>
     <div class="d-flex align-items-center ms-auto">
-        <div class="me-4 d-none d-sm-block">
+        <div class="me-4 d-none d-md-block">
             <a href="#" class="home_welcome_ns_link">Contact Us</a>
         </div>
-        <div class="me-4 d-none d-sm-block">
+        <div class="me-4 d-none d-md-block">
             <a href="#" class="home_welcome_ns_link">My Account</a>
         </div>
-        <div class="d-none d-sm-block">
+        <div class="d-none d-md-block">
             <i class="fa-solid fa-circle-user pe-1 fa-lg"></i>
             <a href="#" class="home_welcome_ns_link">Sign In</a>
             <span> / </span>
             <a href="#" class="home_welcome_ns_link">Register</a>
         </div>
-        <div class="dropdown d-block d-sm-none">
+        <div class="dropdown d-block d-md-none">
             <a class="" href="#" role="button" id="home_welcome_ns_drop" data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-circle-user home_welcome_ns_drop_icon"></i>
             </a>
@@ -58,15 +58,40 @@
 <!-- Welcome NearStore -->
 
 <!-- === Search Header === -->
+
+    <!-- for small screen -->
+    <header class="px-4 pt-4 d-flex flex-row align-items-center justify-content-between d-block d-lg-none">
+        <!-- Logo -->
+        <div>
+            <div class="home_logo">NEARSTORE</div>
+        </div>
+        <!-- Call Icon -->
+        <div class="ps-2 pe-lg-3 home_search_header_call_box">
+            <a href="#" class="text-decoration-none d-flex flex-row align-items-center">
+                <div>
+                    <img src="old-assets/img/telephone.png" width="30px" alt="">
+                </div>
+                <div class="ps-2">
+                    <div class="home_search_header_icon_text">
+                        Call us at:
+                    </div>
+                    <div class="home_search_header_call_number">
+                        +92 301 0069442
+                    </div>
+                </div>
+            </a>
+        </div>
+    </header>
+
 <header class="px-4 py-4 d-flex flex-row align-items-center justify-content-between">
     
     <!-- Logo -->
-    <div>
+    <div class="d-none d-lg-block">
         <div class="home_logo">NEARSTORE</div>
     </div>
 
     <!-- Search -->
-    <div>
+    <div class="mx-auto">
         <form action="" class="d-flex align-items-center home_search_box">
             <div class="dropdown home_search_box_dropdown">
                 <button class="btn dropdown-toggle shadow-none" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -92,7 +117,7 @@
     <!-- Icons -->
     <div class="d-flex flex-row align-items-end">
 
-        <div class="ps-2 pe-3 home_search_header_call_box">
+        <div class="ps-2 pe-3 home_search_header_call_box d-none d-lg-block">
             <a href="#" class="text-decoration-none d-flex flex-row align-items-center">
                 <div>
                     <img src="old-assets/img/telephone.png" width="30px" alt="">
@@ -108,14 +133,14 @@
             </a>
         </div>
 
-        <div class="ps-3">
+        <div class="ps-3 d-none d-lg-block">
             <a href="#" class="text-center text-decoration-none">
                 <div><img src="old-assets/img/love.png" width="30px" alt=""></div>
                 <div class="home_search_header_icon_text">Wishlist</div>
             </a>
         </div>
 
-        <div class="ps-3">
+        <div class="ps-3 d-none d-lg-block">
             <a href="#" class="text-center text-decoration-none">
                 <div><img src="old-assets/img/shopping-cart.png" width="30px" alt=""></div>
                 <div class="home_search_header_icon_text">Cart</div>
@@ -192,6 +217,18 @@
                 <a class="nav-link home_nav_link d-flex align-items-center" href="#">
                     <i class="bi bi-bag-heart pe-2" style="font-size: 18px;"></i>
                     Daily Deals
+                </a>
+            </li>
+            <li class="nav-item home_nav_item d-block d-lg-none">
+                <a class="nav-link home_nav_link d-flex align-items-center" href="#">
+                    <i class="bi bi-heart pe-2" style="font-size: 18px;"></i>
+                    Wishlist
+                </a>
+            </li>
+            <li class="nav-item home_nav_item d-block d-lg-none">
+                <a class="nav-link home_nav_link d-flex align-items-center" href="#">
+                    <i class="bi bi-cart-plus pe-2" style="font-size: 18px;"></i>
+                    Cart
                 </a>
             </li>
         </ul>

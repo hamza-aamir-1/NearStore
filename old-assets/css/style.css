@@ -165,7 +165,7 @@ body{
     background-color: transparent;
     padding: 5px 10px;
     font-size: 14px;
-    width: 300px;
+    width: 250px;
 }
 .home_search_header_call_box{
     border-right: 2px solid #E9E9E9;
@@ -304,6 +304,10 @@ body{
     }
     .home_nav_link:hover{
         color: white;
+    }
+    /* Search Header */
+    .home_search_header_call_box{
+        border-right: none;
     }
 }
 
