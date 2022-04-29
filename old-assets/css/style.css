@@ -109,6 +109,9 @@ body{
     padding: 12.5px 13px !important;
     height: 100%;
 }
+.home_navbar_browse_list{
+    margin-left: 30px;
+}
 .home_navbar_brand:hover{
     color: white;
 }
@@ -145,6 +148,24 @@ body{
     color: var(--primary-clr);
     font-size: 22px;
     font-family: font-extra-bold;
+}
+.home_search_box{
+    border: 1px solid var(--primary-clr);
+}
+.home_search_box_dropdown > button{
+    font-size: 14px;
+}
+.home_search_box_dropdown > ul{
+    z-index: 9999;
+}
+.home_search_box_input{
+    border: none;
+    outline: none;
+    border-left: 1px solid silver;
+    background-color: transparent;
+    padding: 5px 10px;
+    font-size: 14px;
+    width: 300px;
 }
 .home_search_header_call_box{
     border-right: 2px solid #E9E9E9;
