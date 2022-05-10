@@ -365,9 +365,9 @@
                     </div>
                     <div class="py-3">
                         <form action="" class="d-flex justify-content-between home_hot_offers_btns">
-                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Add to Cart</button>
+                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Buy Now</button>
                             <button class="btn shadow-none"><img src="assets/img/love.png" width="25px" alt=""></button>
-                            <button class="btn shadow-none"><img src="assets/img/compare.png" width="27px" alt=""></button>
+                            <button class="btn shadow-none"><img src="assets/img/shopping-cart.png" width="27px" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -427,9 +427,9 @@
                     </div>
                     <div class="py-3">
                         <form action="" class="d-flex justify-content-between home_hot_offers_btns">
-                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Add to Cart</button>
+                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Buy Now</button>
                             <button class="btn shadow-none"><img src="assets/img/love.png" width="25px" alt=""></button>
-                            <button class="btn shadow-none"><img src="assets/img/compare.png" width="27px" alt=""></button>
+                            <button class="btn shadow-none"><img src="assets/img/shopping-cart.png" width="27px" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -489,9 +489,9 @@
                     </div>
                     <div class="py-3">
                         <form action="" class="d-flex justify-content-between home_hot_offers_btns">
-                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Add to Cart</button>
+                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Buy Now</button>
                             <button class="btn shadow-none"><img src="assets/img/love.png" width="25px" alt=""></button>
-                            <button class="btn shadow-none"><img src="assets/img/compare.png" width="27px" alt=""></button>
+                            <button class="btn shadow-none"><img src="assets/img/shopping-cart.png" width="27px" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -551,9 +551,9 @@
                     </div>
                     <div class="py-3">
                         <form action="" class="d-flex justify-content-between home_hot_offers_btns">
-                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Add to Cart</button>
+                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Buy Now</button>
                             <button class="btn shadow-none"><img src="assets/img/love.png" width="25px" alt=""></button>
-                            <button class="btn shadow-none"><img src="assets/img/compare.png" width="27px" alt=""></button>
+                            <button class="btn shadow-none"><img src="assets/img/shopping-cart.png" width="27px" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -613,9 +613,9 @@
                     </div>
                     <div class="py-3">
                         <form action="" class="d-flex justify-content-between home_hot_offers_btns">
-                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Add to Cart</button>
+                            <button class="text-uppercase home_hot_offers_cart_btn shadow-none btn rounded-0 px-3 py-2">Buy Now</button>
                             <button class="btn shadow-none"><img src="assets/img/love.png" width="25px" alt=""></button>
-                            <button class="btn shadow-none"><img src="assets/img/compare.png" width="27px" alt=""></button>
+                            <button class="btn shadow-none"><img src="assets/img/shopping-cart.png" width="27px" alt=""></button>
                         </form>
                     </div>
                 </div>
@@ -644,145 +644,297 @@
 
 <div class="row g-5">
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-0.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+    <!-- Product Item -->
+    <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <div class="products_page_product_img_discount">-15%</div>
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                                <span class="products_page_product_price">Rs. 1,699</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-1.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <div class="products_page_product_img_discount">-30%</div>
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Black Belt</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 4,399</span>
+                                <span class="products_page_product_price">Rs. 3,999</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-2.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Blue High Hill</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price">Rs. 499</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-3.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Brown Long Shoes</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price">Rs. 2,699</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-4.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <div class="products_page_product_img_discount">-5%</div>
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                                <span class="products_page_product_price">Rs. 1,699</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-0.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <div class="products_page_product_img_discount">-15%</div>
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Black Belt</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                                <span class="products_page_product_price">Rs. 1,699</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-1.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <div class="products_page_product_img_discount">-15%</div>
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                                <span class="products_page_product_price">Rs. 1,699</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-2.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
+                <!-- Product Item -->
+                <div class="col-lg-3 col-md-4 col-6">
+                    <div class="products_page_product_box">
+                        <div class="products_page_product_img_box">
+                            <div class="products_page_product_img_discount">-15%</div>
+                            <a href="#" class="">
+                                <div class="products_page_product_img_overlay_btns">
+                                    <form action="">
+                                        <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
+                                        <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
+                                    </form>
+                                </div>
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                            </a>
+                        </div>
+                        <div class="p-3">
+                            <div class="text-truncate">
+                                <a href="#" class="products_page_product_title">Black Belt</a>
+                            </div>
+                            <div class="py-1">
+                                <span class="text-warning pe-1">
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star fa-sm"></i>
+                                    <i class="fa-solid fa-star-half-stroke fa-sm"></i>
+                                </span>
+                            </div>
+                            <div class="">
+                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                                <span class="products_page_product_price">Rs. 1,699</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-3.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
-                </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-lg-3 col-md-4 col-sm-6">
-        <div class="home_best_selling_box">
-            <div class="home_best_selling_img">
-                <img src="assets/img/p-4.jpg" width="100%" alt="">
-            </div>
-            <div class="py-3 px-3">
-                <div class="home_best_selling_heading">
-                    <a href="#" class="">Lorem ipsum</a>
-                </div>
-                <div class="home_best_selling_price">1500 Rs</div>
-            </div>
-        </div>
-    </div>
 
 </div>
 </section>

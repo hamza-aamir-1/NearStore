@@ -241,26 +241,6 @@ body{
     border-color: var(--primary-clr);
 }
 
-/* Best Selling */
-.home_best_selling_heading > a{
-    font-size: 16px;
-    color: var(--black);
-    text-decoration: none;
-}
-.home_best_selling_heading > a:hover{
-    text-decoration: underline;
-}
-.home_best_selling_price{
-    font-size: 16px;
-    font-family: font-bold;
-    color: var(--black);
-}
-.home_best_selling_box{
-    cursor: pointer;
-    border-radius: 5px;
-    box-shadow: 15px 15px 35px rgb(230, 230, 230);
-}
-
 /* Compare Products */
 .home_compare_product_heading{
     font-family: font-bold;
