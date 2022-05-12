@@ -240,6 +240,103 @@
 </nav>
 <!-- Navbar -->
 
+<!-- === Carousel === -->
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators hero_carousel_indicator_btns">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active hero_carousel_indicator_btn_1" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" class="hero_carousel_indicator_btn_2" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" class="hero_carousel_indicator_btn_3" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- <div class="row g-0">
+        <div class="col-6"> -->
+            <div class="hero_carousel_text_box">
+                <div class="hero_carousel_text_1">
+                    From Online Store
+                </div>
+                <div class="hero_carousel_text_2 pt-2">
+                    Nike Shoes
+                </div>
+                <div class="hero_carousel_text_3 pt-1">
+                    Recommended
+                </div>
+                <div class="hero_carousel_text_4 pt-2">
+                    Free Shipping on all orders over Rs. 1000
+                </div>
+                <div class="hero_carousel_btn pt-3">
+                    <button class="">
+                        Shop Now
+                        <i class="fa-solid fa-arrow-right-long ps-2 fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+        <!-- </div> -->
+        <!-- <div class="col-6">
+            <div class="hero_carousel_img_box">
+                <img src="assets/img/slider2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div> -->
+      <!-- </div> -->
+    </div>
+    <div class="carousel-item">
+      <div class="hero_carousel_text_box">
+                <div class="hero_carousel_text_1">
+                    From Online Store
+                </div>
+                <div class="hero_carousel_text_2 pt-2">
+                    Nike Shoes
+                </div>
+                <div class="hero_carousel_text_3 pt-1">
+                    Recommended
+                </div>
+                <div class="hero_carousel_text_4 pt-2">
+                    Free Shipping on all orders over Rs. 1000
+                </div>
+                <div class="hero_carousel_btn">
+                    <button class="">
+                        Shop Now
+                        <i class="fa-solid fa-arrow-right-long ps-2 fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+    </div>
+    <div class="carousel-item">
+      <div class="hero_carousel_text_box">
+                <div class="hero_carousel_text_1">
+                    From Online Store
+                </div>
+                <div class="hero_carousel_text_2 pt-2">
+                    Nike Shoes
+                </div>
+                <div class="hero_carousel_text_3 pt-1">
+                    Recommended
+                </div>
+                <div class="hero_carousel_text_4 pt-2">
+                    Free Shipping on all orders over Rs. 1000
+                </div>
+                <div class="hero_carousel_btn pt-3">
+                    <button class="">
+                        Shop Now
+                        <i class="fa-solid fa-arrow-right-long ps-2 fa-lg"></i>
+                    </button>
+                </div>
+            </div>
+    </div>
+  </div>
+    <button class="carousel-control-prev hero_carousel_prev_next_icon" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="visually-hidden">Previous</span>
+        <i class="fa-solid fa-chevron-left fa-lg"></i>
+    </button>
+    <button class="carousel-control-next hero_carousel_prev_next_icon" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="visually-hidden">Next</span>
+        <i class="fa-solid fa-chevron-right fa-lg"></i>
+    </button>
+</div>
+<!-- Carousel -->
+
 <!-- === Policy Boxes === -->
 <section class="container-fluid px-4 my-5">
 <div class="row g-3">
@@ -307,9 +404,6 @@
 <div class="mb-4 position-relative d-flex align-items-end justify-content-between">
     <div class="home_see_all_items_heading">
         Hot offers for you
-    </div>
-    <div class="home_see_all_items_link">
-        <a href="#">See all Items</a>
     </div>
 </div>
 
@@ -625,6 +719,12 @@
     </div>
 </div>
 
+<div class="col-12">
+    <div class="home_see_all_items_link text-center">
+        <a href="#">See all Items</a>
+    </div>
+</div>
+
 </div>
 </section>
 <!-- Hot Offers -->
@@ -636,9 +736,6 @@
 <div class="mb-4 position-relative d-flex align-items-end justify-content-between">
     <div class="home_see_all_items_heading">
         Best Selling
-    </div>
-    <div class="home_see_all_items_link">
-        <a href="#">See all Items</a>
     </div>
 </div>
 
@@ -657,7 +754,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -694,7 +791,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -730,7 +827,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -765,7 +862,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -801,7 +898,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -838,7 +935,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -875,7 +972,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -912,7 +1009,7 @@
                                     </form>
                                 </div>
                                 <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
-                                <div class="products_page_product_img_overlay">QUICKVIEW</div>
+                                <div class="products_page_product_img_overlay">View Product</div>
                             </a>
                         </div>
                         <div class="p-3">
@@ -933,6 +1030,12 @@
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+
+                <div class="col-12">
+                    <div class="home_see_all_items_link text-center">
+                        <a href="#">See all Items</a>
                     </div>
                 </div>
 
