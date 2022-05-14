@@ -198,6 +198,19 @@ body{
     font-size: 15px;
     color: var(--black);
 }
+.home_search_header_cart_badge{
+    background-color: var(--primary-clr);
+    font-size: 12px;
+}
+.home_navbar_offcanvas_cart_badge{
+    background-color: var(--primary-clr);
+    color: white;
+    transition-duration: 0.3s;
+}
+.home_nav_item:hover .home_navbar_offcanvas_cart_badge{
+    background-color: black !important;
+
+}
 
 /* Carousel */
 .hero_carousel_text_box{
@@ -389,6 +402,10 @@ body{
     color: white;
     font-size: 14px;
     font-family: font-regular;
+}
+.footer_headphone_icon > i{
+    font-size: 2rem;
+    color: var(--primary-clr);
 }
 .footer_list > a{
     color: white;

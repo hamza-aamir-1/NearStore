@@ -172,10 +172,16 @@
 
         <div class="ps-3 d-none d-lg-block">
           <a href="#" class="text-center text-decoration-none">
-            <div>
+            <div class="position-relative">
               <img src="assets/img/shopping-cart.png" width="30px" alt="" />
+              <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill home_search_header_cart_badge">
+                9
+                <span class="visually-hidden">unread messages</span>
+              </span>
             </div>
-            <div class="home_search_header_icon_text">Cart</div>
+            <div class="home_search_header_icon_text">
+              Cart
+            </div>
           </a>
         </div>
       </div>
@@ -407,7 +413,7 @@
           aria-labelledby="offcanvasNavbarLabel"
         >
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">NearStore</h5>
             <button
               type="button"
               class="btn-close text-reset shadow-none"
@@ -510,6 +516,7 @@
                 >
                   <i class="bi bi-cart-plus pe-2" style="font-size: 18px"></i>
                   Cart
+                  <span class="badge ms-2 home_navbar_offcanvas_cart_badge">9</span>
                 </a>
               </li>
             </ul>
@@ -1582,6 +1589,16 @@
                 Pariatur, ab. Provident eum accusantium dolorum nulla, fuga
                 autem rerum commodi beatae amet similique et repellendus
                 dignissimos tempora delectus saepe quo iure.
+              </div>
+            </div>
+
+            <div class="d-flex align-items-center justify-content-center justify-content-lg-start my-4">
+              <div class="pe-3 footer_headphone_icon">
+                <i class="bi bi-headset"></i>
+              </div>
+              <div>
+                <div class="footer_about">Need Help?</div>
+                <div class="footer_heading">+92 301 0069442</div>
               </div>
             </div>
           </section>
