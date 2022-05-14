@@ -185,60 +185,67 @@
     <!-- === Navbar === -->
     <nav class="navbar navbar-expand-lg py-0 home_navbar">
       <div class="container-fluid px-4">
+
         <!-- Browse Categories Dropdown -->
-        <div class="btn-group">
+        <div class="btn-group home_navbar_brand">
           <button
-            class="btn btn-secondary dropdown-toggle"
+            class="p-0"
             type="button"
             id="dropdownMenuClickable"
             data-bs-toggle="dropdown"
             data-bs-auto-close="false"
             aria-expanded="false"
           >
-            Manual close
+          <i class="fa-solid fa-bars fa-lg pe-1"></i>
+            Browse Categories
           </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuClickable">
+          <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="dropdownMenuClickable">
+            <li><a class="dropdown-item" href="#">Arts, Crafts & Sewing</a></li>
+            <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
+            <li><a class="dropdown-item" href="#">Office supplies</a></li>
+            <li><a class="dropdown-item" href="#">Pet supplies</a></li>
+            <li><a class="dropdown-item" href="#">Books, Magazines & Newspapers</a></li>
             <li>
-                <a class="dropdown-item" href="#">
-                    <div class="dropdown dropend">
+                    <div class="dropdown dropend" id="dropendRemove">
                         <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                             Shirts
                             <i class="fa-solid fa-angle-right ps-1"></i>
                         </a>
-                        <ul class="dropdown-menu home_navbar_sub_dropdown_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
-                            <li><a class="dropdown-item" href="#">
-                                <div class="dropdown dropend">
+                        <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
+                            <li>
+                                <div class="dropdown dropend" id="dropendRemove">
                                     <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                                         Shirts
                                         <i class="fa-solid fa-angle-right ps-1"></i>
                                     </a>
-                                    <ul class="dropdown-menu home_navbar_sub_dropdown_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
-                                        <li><a class="dropdown-item" href="#">
-                                            <div class="dropdown dropend">
+                                    <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
+                                        <li><a class="dropdown-item" href="#">Women Collection</a></li>
+                                        <li><a class="dropdown-item" href="#">Kids Collection</a></li>
+                                        <li>
+                                            <div class="dropdown dropend" id="dropendRemove">
                                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                                                     Shirts
                                                     <i class="fa-solid fa-angle-right ps-1"></i>
                                                 </a>
-                                                <ul class="dropdown-menu home_navbar_sub_dropdown_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
+                                                <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
                                                     <li><a class="dropdown-item" href="#">Men Collection</a></li>
                                                     <li><a class="dropdown-item" href="#">Women Collection</a></li>
                                                     <li><a class="dropdown-item" href="#">Kids Collection</a></li>
                                                 </ul>
                                             </div>
-                                        </a></li>
-                                        <li><a class="dropdown-item" href="#">Women Collection</a></li>
-                                        <li><a class="dropdown-item" href="#">Kids Collection</a></li>
+                                        </li>
                                     </ul>
                                 </div>
-                            </a></li>
-                            <li><a class="dropdown-item" href="#">Women Collection</a></li>
-                            <li><a class="dropdown-item" href="#">Kids Collection</a></li>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Pants</a></li>
+                            <li><a class="dropdown-item" href="#">Shoes</a></li>
                         </ul>
                     </div>
-            </a>
         </li>
-            <li><a class="dropdown-item" href="#">Menu item</a></li>
-            <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Beauty & Personal Care</a></li>
+        <li><a class="dropdown-item" href="#">Toys & Games</a></li>
+        <li><a class="dropdown-item" href="#">Garden & Outdoor</a></li>
+        <li><a class="dropdown-item" href="#">Exercise/Fitness supplies</a></li>
           </ul>
         </div>
 

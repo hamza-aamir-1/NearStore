@@ -110,25 +110,24 @@ body{
 }
 .home_navbar_brand{
     background-color: var(--primary-clr);
-    color: white;
-    font-size: 15px;
     padding: 12.5px 13px !important;
     height: 100%;
 }
-.home_navbar_browse_list{
-    /* left: 25px !important; */
+.home_navbar_brand > button{
+    background-color: transparent;
+    font-size: 15px;
+    border: none;
+    color: white;
 }
 .home_navbar_browse_list > li > .dropdown-item,
-.home_navbar_sub_dropdown > div > .dropdown-item,
-.home_navbar_sub_dropdown_list > li > .dropdown-item{
+.home_navbar_browse_list > li > .dropdown > .dropdown-item{
     padding: 10px;
     font-size: 14px;
     color: black;
     transition-duration: 0.3s;
 }
 .home_navbar_browse_list > li > .dropdown-item:hover,
-.home_navbar_sub_dropdown > div > .dropdown-item:hover,
-.home_navbar_sub_dropdown_list > li > .dropdown-item:hover{
+.home_navbar_browse_list > li > .dropdown:hover > .dropdown-item{
     background-color: var(--primary-clr);
     color: white;
 }

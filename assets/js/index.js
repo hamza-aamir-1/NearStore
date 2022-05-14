@@ -1,3 +1,12 @@
+// === Home Page ===
+
+// Navbar Browse Category Dropdown
+let screenWidth = window.innerWidth;
+let navbarCategory = document.getElementById('dropendRemove').classList;
+if(screenWidth <= 1000){
+    navbarCategory.remove('dropend');
+}
+
 // === Products Page ===
 
 // Sub Category Carousel
