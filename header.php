@@ -36,6 +36,7 @@
     <!-- CSS -->
   </head>
   <body class="bg-light">
+    
     <!-- === Welcome NearStore === -->
     <header class="d-flex align-items-center px-4 py-3 home_welcome_ns">
       <div class="text-uppercase home_welcome_ns_heading">
@@ -110,12 +111,12 @@
       class="px-4 py-4 d-flex flex-row align-items-center justify-content-between"
     >
       <!-- Logo -->
-      <div class="d-none d-lg-block">
+      <div class="d-none d-lg-block flex-grow-0">
         <div class="home_logo">NEARSTORE</div>
       </div>
 
       <!-- Search -->
-      <div class="mx-auto">
+      <div class="mx-auto flex-grow-1 px-xl-5 px-md-4 px-2">
         <form action="" class="d-flex align-items-center home_search_box">
           <div class="dropdown home_search_box_dropdown">
             <button
@@ -151,7 +152,7 @@
       </div>
 
       <!-- Icons -->
-      <div class="d-flex flex-row align-items-end">
+      <div class="d-flex flex-row align-items-end flex-grow-0">
         <div class="ps-2 pe-3 home_search_header_call_box d-none d-lg-block">
           <a
             href="#"

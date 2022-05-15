@@ -181,7 +181,8 @@ body{
     background-color: transparent;
     padding: 5px 10px;
     font-size: 14px;
-    width: 250px;
+    /* width: 250px; */
+    width: 100%;
 }
 .home_search_header_call_box{
     border-right: 2px solid #E9E9E9;
