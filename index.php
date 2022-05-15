@@ -193,9 +193,9 @@
       <div class="container-fluid px-4">
 
         <!-- Browse Categories Dropdown -->
-        <div class="btn-group home_navbar_brand">
+        <div class="btn-group">
           <button
-            class="p-0"
+            class="p-0 home_navbar_brand"
             type="button"
             id="dropdownMenuClickable"
             data-bs-toggle="dropdown"
@@ -217,14 +217,14 @@
                             Shirts
                             <i class="fa-solid fa-angle-right ps-1"></i>
                         </a>
-                        <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
+                        <ul class="dropdown-menu home_navbar_browse_list p-0 home_navbar_browse_list_responsive" aria-labelledby="browseCategoriesSubDropdownShirts">
                             <li>
                                 <div class="dropdown dropend" id="dropendRemove">
                                     <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                                         Shirts
                                         <i class="fa-solid fa-angle-right ps-1"></i>
                                     </a>
-                                    <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
+                                    <ul class="dropdown-menu home_navbar_browse_list p-0 home_navbar_browse_list_responsive" aria-labelledby="browseCategoriesSubDropdownShirts">
                                         <li><a class="dropdown-item" href="#">Women Collection</a></li>
                                         <li><a class="dropdown-item" href="#">Kids Collection</a></li>
                                         <li>
@@ -233,7 +233,7 @@
                                                     Shirts
                                                     <i class="fa-solid fa-angle-right ps-1"></i>
                                                 </a>
-                                                <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
+                                                <ul class="dropdown-menu home_navbar_browse_list p-0 home_navbar_browse_list_responsive" aria-labelledby="browseCategoriesSubDropdownShirts">
                                                     <li><a class="dropdown-item" href="#">Men Collection</a></li>
                                                     <li><a class="dropdown-item" href="#">Women Collection</a></li>
                                                     <li><a class="dropdown-item" href="#">Kids Collection</a></li>
@@ -254,145 +254,6 @@
         <li><a class="dropdown-item" href="#">Exercise/Fitness supplies</a></li>
           </ul>
         </div>
-
-        <!-- <a class="navbar-brand m-0 home_navbar_brand" href="#" id="browseCategoriesDropdown" role="button" data-bs-toggle="dropdown" data-bs-auto-close="false" aria-expanded="false">
-        <i class="fa-solid fa-bars pe-1"></i>
-        Browse Categories
-    </a>
-    <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="browseCategoriesDropdown">
-        <li><a class="dropdown-item" href="#">Automotive Parts & Accessories</a></li>
-        <li><a class="dropdown-item" href="#">Electronics</a></li>
-        <li class="home_navbar_sub_dropdown">
-            <div class="dropdown dropend">
-                <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesDropdownGroceries" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Groceries
-                    <i class="fa-solid fa-angle-right ps-1"></i>
-                </a>
-                <ul class="dropdown-menu home_navbar_sub_dropdown_list p-0" aria-labelledby="browseCategoriesDropdownGroceries">
-                    <li><a class="dropdown-item" href="#">Arts, Crafts & Sewing</a></li>
-                    <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
-                </ul>
-            </div>
-        </li>
-        <li><a class="dropdown-item" href="#">Arts, Crafts & Sewing</a></li>
-        <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
-        <li><a class="dropdown-item" href="#">Office supplies</a></li>
-        <li><a class="dropdown-item" href="#">Pet supplies</a></li>
-        <li><a class="dropdown-item" href="#">Books, Magazines & Newspapers</a></li>
-        <li class="home_navbar_sub_dropdown">
-            <div class="dropdown dropend">
-                <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesDropdownClothes" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Clothing
-                    <i class="fa-solid fa-angle-right ps-1"></i>
-                </a>
-                <ul class="dropdown-menu home_navbar_sub_dropdown_list p-0" aria-labelledby="browseCategoriesDropdownClothes">
-                    <li>
-                        <div class="dropdown dropend">
-                            <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
-                                Shirts
-                                <i class="fa-solid fa-angle-right ps-1"></i>
-                            </a>
-                            <ul class="dropdown-menu home_navbar_sub_dropdown_list p-0" aria-labelledby="browseCategoriesSubDropdownShirts">
-                                <li><a class="dropdown-item" href="#">Men Collection</a></li>
-                                <li><a class="dropdown-item" href="#">Women Collection</a></li>
-                                <li><a class="dropdown-item" href="#">Kids Collection</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li><a class="dropdown-item" href="#">Pants</a></li>
-                    <li><a class="dropdown-item" href="#">Shoes</a></li>
-                </ul>
-            </div>
-        </li>
-        <li><a class="dropdown-item" href="#">Beauty & Personal Care</a></li>
-        <li><a class="dropdown-item" href="#">Toys & Games</a></li>
-        <li><a class="dropdown-item" href="#">Garden & Outdoor</a></li>
-        <li><a class="dropdown-item" href="#">Exercise/Fitness supplies</a></li>
-    </ul> -->
-
-        <!-- <div class="dropdown">
-  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
-  </button>
-  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-    <li><a class="dropdown-item" href="#">Action</a></li>
-    <li><a class="dropdown-item" href="#">Another action</a></li>
-    <li><a class="dropdown-item" href="#" id="helloWorld">
-            <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-            </div>
-    </a></li>
-  </ul>
-</div> -->
-
-        <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </li>
-          </ul>
-        </li>
-    </ul>
-    </div>
-    </div>
-    </nav> -->
-
-        <!-- <div class="dropdown">
-            <a class="" href="#" role="button" id="home_welcome_ns_drop" data-bs-toggle="dropdown" aria-expanded="false">
-                something
-            </a>
-            <ul class="dropdown-menu p-0 home_welcome_ns_drop_box" aria-labelledby="home_welcome_ns_drop">
-              <li><a class="dropdown-item" href="#">My Account</a></li>
-              <li><a class="dropdown-item" href="#">Sign In</a></li>
-              <li><a class="dropdown-item" href="#">Register</a></li>
-              <li>
-                        <a class="" href="#" role="button" id="home_welcome_ns_dr" data-bs-toggle="dropdown" aria-expanded="false">
-                            hello
-                        </a>
-                        <ul class="dropdown-menu p-0 home_welcome_ns_drop_box" aria-labelledby="home_welcome_ns_dr">
-                        <li><a class="dropdown-item" href="#">My Account</a></li>
-                        <li><a class="dropdown-item" href="#">Sign In</a></li>
-                        <li><a class="dropdown-item" href="#">Register</a></li>
-                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                        </ul>
-              </li>
-            </ul>
-    </div> -->
 
         <button
           class="navbar-toggler shadow-none home_navbar_toggler"

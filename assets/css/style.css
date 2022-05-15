@@ -112,9 +112,6 @@ body{
     background-color: var(--primary-clr);
     padding: 12.5px 13px !important;
     height: 100%;
-}
-.home_navbar_brand > button{
-    background-color: transparent;
     font-size: 15px;
     border: none;
     color: white;
@@ -209,7 +206,6 @@ body{
 }
 .home_nav_item:hover .home_navbar_offcanvas_cart_badge{
     background-color: black !important;
-
 }
 
 /* Carousel */
@@ -434,6 +430,9 @@ body{
     /* Search Header */
     .home_search_header_call_box{
         border-right: none;
+    }
+    .home_navbar_browse_list_responsive{
+        position: static !important;
     }
 }
 @media screen and (max-width: 768px) {
