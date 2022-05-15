@@ -34,8 +34,6 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <!-- <div class="row g-0">
-        <div class="col-6"> -->
           <div class="hero_carousel_text_box">
             <div class="hero_carousel_text_1">From Online Store</div>
             <div class="hero_carousel_text_2 pt-2">Nike Shoes</div>
@@ -44,19 +42,12 @@
               Free Shipping on all orders over Rs. 1000
             </div>
             <div class="hero_carousel_btn pt-3">
-              <button class="">
+              <a class="btn" href="product-detail.php">
                 Shop Now
                 <i class="fa-solid fa-arrow-right-long ps-2 fa-lg"></i>
-              </button>
+              </a>
             </div>
           </div>
-          <!-- </div> -->
-          <!-- <div class="col-6">
-            <div class="hero_carousel_img_box">
-                <img src="assets/img/slider2.jpg" class="d-block w-100" alt="...">
-            </div>
-        </div> -->
-          <!-- </div> -->
         </div>
         <div class="carousel-item">
           <div class="hero_carousel_text_box">
@@ -67,10 +58,10 @@
               Free Shipping on all orders over Rs. 1000
             </div>
             <div class="hero_carousel_btn">
-              <button class="">
+              <a class="btn" href="product-detail.php">
                 Shop Now
                 <i class="fa-solid fa-arrow-right-long ps-2 fa-lg"></i>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -83,10 +74,10 @@
               Free Shipping on all orders over Rs. 1000
             </div>
             <div class="hero_carousel_btn pt-3">
-              <button class="">
+              <a class="btn" href="product-detail.php">
                 Shop Now
                 <i class="fa-solid fa-arrow-right-long ps-2 fa-lg"></i>
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -192,7 +183,7 @@
       <div class="row g-5">
         <div class="col-md-6">
           <div class="home_hot_offers_box">
-            <a href="home.html" class="text-decoration-none">
+            <a href="product-detail.php" class="text-decoration-none">
               <div class="row g-0">
                 <div class="col-xl-6 col-md-12 col-sm-6">
                   <div>
@@ -277,7 +268,7 @@
 
         <div class="col-md-6">
           <div class="home_hot_offers_box">
-            <a href="home.html" class="text-decoration-none">
+            <a href="product-detail.php" class="text-decoration-none">
               <div class="row g-0">
                 <div class="col-xl-6 col-md-12 col-sm-6">
                   <div>
@@ -362,7 +353,7 @@
 
         <div class="col-md-6">
           <div class="home_hot_offers_box">
-            <a href="home.html" class="text-decoration-none">
+            <a href="product-detail.php" class="text-decoration-none">
               <div class="row g-0">
                 <div class="col-xl-6 col-md-12 col-sm-6">
                   <div>
@@ -447,7 +438,7 @@
 
         <div class="col-md-6">
           <div class="home_hot_offers_box">
-            <a href="home.html" class="text-decoration-none">
+            <a href="product-detail.php" class="text-decoration-none">
               <div class="row g-0">
                 <div class="col-xl-6 col-md-12 col-sm-6">
                   <div>
@@ -532,7 +523,7 @@
 
         <div class="col-md-6">
           <div class="home_hot_offers_box">
-            <a href="home.html" class="text-decoration-none">
+            <a href="product-detail.php" class="text-decoration-none">
               <div class="row g-0">
                 <div class="col-xl-6 col-md-12 col-sm-6">
                   <div>
@@ -617,7 +608,7 @@
 
         <div class="col-12">
           <div class="home_see_all_items_link text-center">
-            <a href="#">See all Items</a>
+            <a href="products.php">See all Items</a>
           </div>
         </div>
       </div>
@@ -639,7 +630,7 @@
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -663,7 +654,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title"
+                <a href="product-detail.php" class="products_page_product_title"
                   >Black Belt Black Belt Black Belt Black Belt</a
                 >
               </div>
@@ -692,7 +683,7 @@
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-30%</div>
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -716,7 +707,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title">Black Belt</a>
+                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
               </div>
               <div class="py-1">
                 <span class="text-warning pe-1">
@@ -742,7 +733,7 @@
         <div class="col-lg-3 col-md-4 col-6">
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -766,7 +757,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title"
+                <a href="product-detail.php" class="products_page_product_title"
                   >Blue High Hill</a
                 >
               </div>
@@ -790,7 +781,7 @@
         <div class="col-lg-3 col-md-4 col-6">
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -814,7 +805,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title"
+                <a href="product-detail.php" class="products_page_product_title"
                   >Brown Long Shoes</a
                 >
               </div>
@@ -839,7 +830,7 @@
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-5%</div>
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -863,7 +854,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title"
+                <a href="product-detail.php" class="products_page_product_title"
                   >Black Belt Black Belt Black Belt Black Belt</a
                 >
               </div>
@@ -892,7 +883,7 @@
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -916,7 +907,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title">Black Belt</a>
+                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
               </div>
               <div class="py-1">
                 <span class="text-warning pe-1">
@@ -943,7 +934,7 @@
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -967,7 +958,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title"
+                <a href="product-detail.php" class="products_page_product_title"
                   >Black Belt Black Belt Black Belt Black Belt</a
                 >
               </div>
@@ -996,7 +987,7 @@
           <div class="products_page_product_box">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
-              <a href="#" class="">
+              <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
                   <form action="">
                     <button class="me-1">
@@ -1020,7 +1011,7 @@
             </div>
             <div class="p-3">
               <div class="text-truncate">
-                <a href="#" class="products_page_product_title">Black Belt</a>
+                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
               </div>
               <div class="py-1">
                 <span class="text-warning pe-1">
@@ -1044,7 +1035,7 @@
 
         <div class="col-12">
           <div class="home_see_all_items_link text-center">
-            <a href="#">See all Items</a>
+            <a href="products.php">See all Items</a>
           </div>
         </div>
       </div>

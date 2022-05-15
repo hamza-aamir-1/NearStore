@@ -211,14 +211,14 @@
             Browse Categories
           </button>
           <ul class="dropdown-menu home_navbar_browse_list p-0" aria-labelledby="dropdownMenuClickable">
-            <li><a class="dropdown-item" href="#">Arts, Crafts & Sewing</a></li>
-            <li><a class="dropdown-item" href="#">Home & Kitchen</a></li>
-            <li><a class="dropdown-item" href="#">Office supplies</a></li>
-            <li><a class="dropdown-item" href="#">Pet supplies</a></li>
-            <li><a class="dropdown-item" href="#">Books, Magazines & Newspapers</a></li>
+            <li><a class="dropdown-item" href="products.php">Arts, Crafts & Sewing</a></li>
+            <li><a class="dropdown-item" href="products.php">Home & Kitchen</a></li>
+            <li><a class="dropdown-item" href="products.php">Office supplies</a></li>
+            <li><a class="dropdown-item" href="products.php">Pet supplies</a></li>
+            <li><a class="dropdown-item" href="products.php">Books, Magazines & Newspapers</a></li>
             <li>
                     <div class="dropdown dropend" id="dropendRemove">
-                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="dropdown-item d-flex align-items-center justify-content-between" href="" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
                             Shirts
                             <i class="fa-solid fa-angle-right ps-1"></i>
                         </a>
@@ -230,8 +230,8 @@
                                         <i class="fa-solid fa-angle-right ps-1"></i>
                                     </a>
                                     <ul class="dropdown-menu home_navbar_browse_list p-0 home_navbar_browse_list_responsive" aria-labelledby="browseCategoriesSubDropdownShirts">
-                                        <li><a class="dropdown-item" href="#">Women Collection</a></li>
-                                        <li><a class="dropdown-item" href="#">Kids Collection</a></li>
+                                        <li><a class="dropdown-item" href="products.php">Women Collection</a></li>
+                                        <li><a class="dropdown-item" href="products.php">Kids Collection</a></li>
                                         <li>
                                             <div class="dropdown dropend" id="dropendRemove">
                                                 <a class="dropdown-item d-flex align-items-center justify-content-between" href="#" id="browseCategoriesSubDropdownShirts" role="button"  data-bs-auto-close="outside" data-bs-toggle="dropdown" aria-expanded="false">
@@ -239,24 +239,24 @@
                                                     <i class="fa-solid fa-angle-right ps-1"></i>
                                                 </a>
                                                 <ul class="dropdown-menu home_navbar_browse_list p-0 home_navbar_browse_list_responsive" aria-labelledby="browseCategoriesSubDropdownShirts">
-                                                    <li><a class="dropdown-item" href="#">Men Collection</a></li>
-                                                    <li><a class="dropdown-item" href="#">Women Collection</a></li>
-                                                    <li><a class="dropdown-item" href="#">Kids Collection</a></li>
+                                                    <li><a class="dropdown-item" href="products.php">Men Collection</a></li>
+                                                    <li><a class="dropdown-item" href="products.php">Women Collection</a></li>
+                                                    <li><a class="dropdown-item" href="products.php">Kids Collection</a></li>
                                                 </ul>
                                             </div>
                                         </li>
                                     </ul>
                                 </div>
                             </li>
-                            <li><a class="dropdown-item" href="#">Pants</a></li>
-                            <li><a class="dropdown-item" href="#">Shoes</a></li>
+                            <li><a class="dropdown-item" href="products.php">Pants</a></li>
+                            <li><a class="dropdown-item" href="products.php">Shoes</a></li>
                         </ul>
                     </div>
         </li>
-        <li><a class="dropdown-item" href="#">Beauty & Personal Care</a></li>
-        <li><a class="dropdown-item" href="#">Toys & Games</a></li>
-        <li><a class="dropdown-item" href="#">Garden & Outdoor</a></li>
-        <li><a class="dropdown-item" href="#">Exercise/Fitness supplies</a></li>
+        <li><a class="dropdown-item" href="products.php">Beauty & Personal Care</a></li>
+        <li><a class="dropdown-item" href="products.php">Toys & Games</a></li>
+        <li><a class="dropdown-item" href="products.php">Garden & Outdoor</a></li>
+        <li><a class="dropdown-item" href="products.php">Exercise/Fitness supplies</a></li>
           </ul>
         </div>
 
@@ -293,7 +293,7 @@
                 <a
                   class="nav-link home_nav_link active"
                   aria-current="page"
-                  href="#"
+                  href="index.php"
                   >Home</a
                 >
               </li>
@@ -312,10 +312,10 @@
                   class="dropdown-menu"
                   aria-labelledby="offcanvasNavbarDropdown"
                 >
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="products.php">Action</a></li>
+                  <li><a class="dropdown-item" href="products.php">Another action</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item" href="products.php">Something else here</a>
                   </li>
                 </ul>
               </li>
@@ -351,7 +351,7 @@
                 <a
                   class="nav-link home_nav_link active"
                   aria-current="page"
-                  href="#"
+                  href="track-order.php"
                 >
                   <i class="bi bi-geo-alt pe-2" style="font-size: 18px"></i>
                   Track Order
@@ -360,7 +360,7 @@
               <li class="nav-item home_nav_item">
                 <a
                   class="nav-link home_nav_link d-flex align-items-center"
-                  href="#"
+                  href="products.php"
                 >
                   <i class="bi bi-bag-heart pe-2" style="font-size: 18px"></i>
                   Daily Deals

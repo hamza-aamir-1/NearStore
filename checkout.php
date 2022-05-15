@@ -340,7 +340,7 @@
                                 <div>3</div>
                                 <div class="px-1"> x </div>
                                 <div>
-                                    <a href="#" class="checkout_price_box_text text-decoration-none">Infinix Note Series Smartphone</a>
+                                    <a href="product-detail.php" class="checkout_price_box_text text-decoration-none">Infinix Note Series Smartphone</a>
                                 </div>
                             </div>
                             <div>
@@ -361,7 +361,7 @@
                                 <div>1</div>
                                 <div class="px-1"> x </div>
                                 <div>
-                                    <a href="#" class="checkout_price_box_text text-decoration-none">Galaxy Note Series Smartphone</a>
+                                    <a href="product-detail.php" class="checkout_price_box_text text-decoration-none">Galaxy Note Series Smartphone</a>
                                 </div>
                             </div>
                             <div>
@@ -423,7 +423,11 @@
 
         <!-- Place Order Button -->
         <div class="mt-4">
-            <button type="submit" class="checkout_place_order_btn form-control shadow-none">Place Order</button>
+            <a href="track-order.php" class="text-decoration-none checkout_place_order_btn form-control shadow-none text-center"> <!-- Remove this "a" tag after applying backend -->
+                <!-- <button type="submit" class="checkout_place_order_btn form-control shadow-none"> -->
+                    Place Order
+                <!-- </button> -->
+            </a>
         </div>
 
     </div>

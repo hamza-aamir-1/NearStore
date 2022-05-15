@@ -240,7 +240,7 @@ body{
     font-size: 14px;
     color: var(--black);
 }
-.hero_carousel_btn > button{
+.hero_carousel_btn > a{
     font-size: 14px;
     padding: 10px 25px;
     border: 1px solid gray;
@@ -249,12 +249,12 @@ body{
     transition-duration: 0.3s;
     margin-top: 10px;
 }
-.hero_carousel_btn > button:hover{
+.hero_carousel_btn > a:hover{
     background-color: var(--primary-clr);
     border-color: var(--primary-clr);
     color: white;
 }
-.hero_carousel_btn > button > i{
+.hero_carousel_btn > a > i{
     animation: movingRightArrowBtn 1.2s infinite;
 }
 @keyframes movingRightArrowBtn{

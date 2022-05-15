@@ -33,7 +33,7 @@
               <div class="footer_heading pb-3">My Account</div>
               <div class="d-flex flex-column pt-1 footer_list">
                 <a href="#" class="pb-2">Product Support</a>
-                <a href="#" class="pb-2">Checkout</a>
+                <a href="checkout.php" class="pb-2">Checkout</a>
                 <a href="#" class="pb-2">Shopping Cart</a>
                 <a href="#" class="pb-2">Wishlist</a>
                 <a href="#" class="pb-2">Redeem Voucher</a>
@@ -49,7 +49,7 @@
               <div class="d-flex flex-column pt-1 footer_list">
                 <a href="#" class="pb-2">Store Location</a>
                 <a href="#" class="pb-2">My Account</a>
-                <a href="#" class="pb-2">Orders Tracking</a>
+                <a href="track-order.php" class="pb-2">Orders Tracking</a>
                 <a href="#" class="pb-2">FAQs</a>
               </div>
             </div>
