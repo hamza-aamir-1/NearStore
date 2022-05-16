@@ -7,8 +7,8 @@
     <!-- === Breadcrumb === -->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="old-index.html">Home</a></li>
-          <li class="breadcrumb-item"><a href="products.html">Clothing</a></li>
+          <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+          <li class="breadcrumb-item"><a href="products.php">Clothing</a></li>
           <li class="breadcrumb-item active" aria-current="page">Galaxy Note Series Smartphone</li>
         </ol>
     </nav>
@@ -19,17 +19,17 @@
         <!-- === Product Image === -->
         <div class="col-lg-6">
             <div class="">
-                <img src="old-assets/img/p-1.jpg" id="product_detail_expanded_image" width="100%" alt="">
+                <img src="assets/img/p-1.jpg" id="product_detail_expanded_image" width="100%" alt="">
             </div>
             <div class="owl-carousel product_detail_image_gallery mt-3">
                 <div class="item">
-                    <img src="old-assets/img/p-1.jpg" width="100%" onclick="productDetailImageGallery(this);">
+                    <img src="assets/img/p-1.jpg" width="100%" onclick="productDetailImageGallery(this);">
                 </div>
                 <div class="item">
-                    <img src="old-assets/img/p-4.jpg" width="100%" onclick="productDetailImageGallery(this);">
+                    <img src="assets/img/p-4.jpg" width="100%" onclick="productDetailImageGallery(this);">
                 </div>
                 <div class="item">
-                    <img src="old-assets/img/p-3.jpg" width="100%" onclick="productDetailImageGallery(this);">
+                    <img src="assets/img/p-3.jpg" width="100%" onclick="productDetailImageGallery(this);">
                 </div>
             </div>
         </div>
@@ -113,7 +113,7 @@
                 <!-- Timer -->
                 <div class="align-items-center py-2 px-2 text-center product_detail_timer mt-3">
                     <div>
-                        <img src="old-assets/img/clock.png" width="30px" alt="">
+                        <img src="assets/img/clock.png" width="30px" alt="">
                     </div>
                     <div>
                         <div class="product_detail_timer_time">02</div>
@@ -183,7 +183,7 @@
     <section>
         <div class="d-flex justify-content-between">
             <div class="product_detail_title">
-                <img src="old-assets/img/comment.png" class="pe-1" width="30px" alt="">
+                <img src="assets/img/comment.png" class="pe-1" width="30px" alt="">
                 Comments
                 (<span>2</span>)
             </div>
@@ -431,13 +431,13 @@
             <div class="item">
                 <div>
                     <div>
-                        <a href="#">
-                            <img src="old-assets/img/p-0.jpg" width="100%" alt="">
+                        <a href="product-detail.php">
+                            <img src="assets/img/p-0.jpg" width="100%" alt="">
                         </a>
                     </div>
                     <div class="mt-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="product_detail_sm_heading text-decoration-none text-dark">
+                            <a href="product-detail.php" class="product_detail_sm_heading text-decoration-none text-dark">
                                 Double Door Smart Refrigerator
                             </a>
                         </div>
@@ -459,13 +459,13 @@
             <div class="item">
                 <div>
                     <div>
-                        <a href="#">
-                            <img src="old-assets/img/p-1.jpg" width="100%" alt="">
+                        <a href="product-detail.php">
+                            <img src="assets/img/p-1.jpg" width="100%" alt="">
                         </a>
                     </div>
                     <div class="mt-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="product_detail_sm_heading text-decoration-none text-dark">
+                            <a href="product-detail.php" class="product_detail_sm_heading text-decoration-none text-dark">
                                 Double Door Smart Refrigerator
                             </a>
                         </div>
@@ -487,13 +487,13 @@
             <div class="item">
                 <div>
                     <div>
-                        <a href="#">
-                            <img src="old-assets/img/p-2.jpg" width="100%" alt="">
+                        <a href="product-detail.php">
+                            <img src="assets/img/p-2.jpg" width="100%" alt="">
                         </a>
                     </div>
                     <div class="mt-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="product_detail_sm_heading text-decoration-none text-dark">
+                            <a href="product-detail.php" class="product_detail_sm_heading text-decoration-none text-dark">
                                 Double Door Smart Refrigerator
                             </a>
                         </div>
@@ -515,13 +515,13 @@
             <div class="item">
                 <div>
                     <div>
-                        <a href="#">
-                            <img src="old-assets/img/p-3.jpg" width="100%" alt="">
+                        <a href="product-detail.php">
+                            <img src="assets/img/p-3.jpg" width="100%" alt="">
                         </a>
                     </div>
                     <div class="mt-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="product_detail_sm_heading text-decoration-none text-dark">
+                            <a href="product-detail.php" class="product_detail_sm_heading text-decoration-none text-dark">
                                 Double Door Smart Refrigerator
                             </a>
                         </div>
@@ -543,13 +543,13 @@
             <div class="item">
                 <div>
                     <div>
-                        <a href="#">
-                            <img src="old-assets/img/p-4.jpg" width="100%" alt="">
+                        <a href="product-detail.php">
+                            <img src="assets/img/p-4.jpg" width="100%" alt="">
                         </a>
                     </div>
                     <div class="mt-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="product_detail_sm_heading text-decoration-none text-dark">
+                            <a href="product-detail.php" class="product_detail_sm_heading text-decoration-none text-dark">
                                 Double Door Smart Refrigerator
                             </a>
                         </div>
@@ -583,20 +583,20 @@
                 <div class="products_page_product_box product_detail_customer_bought_box">
                     <div class="products_page_product_img_box">
                         <div class="products_page_product_img_discount">-15%</div>
-                        <a href="#" class="">
+                        <a href="product-detail.php" class="">
                             <div class="products_page_product_img_overlay_btns">
                                 <form action="">
                                     <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                     <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                 </form>
                             </div>
-                            <img src="old-assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                            <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
                             <div class="products_page_product_img_overlay">QUICKVIEW</div>
                         </a>
                     </div>
                     <div class="px-2 py-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="products_page_product_title">Double Door Smart Refrigerator</a>
+                            <a href="product-detail.php" class="products_page_product_title">Double Door Smart Refrigerator</a>
                         </div>
                         <div class="home_hot_offers_stars py-1">
                             <i class="fa-solid fa-star fa-sm"></i>
@@ -618,20 +618,20 @@
                 <div class="products_page_product_box product_detail_customer_bought_box">
                     <div class="products_page_product_img_box">
                         <div class="products_page_product_img_discount">-35%</div>
-                        <a href="#" class="">
+                        <a href="product-detail.php" class="">
                             <div class="products_page_product_img_overlay_btns">
                                 <form action="">
                                     <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                     <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                 </form>
                             </div>
-                            <img src="old-assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
+                            <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
                             <div class="products_page_product_img_overlay">QUICKVIEW</div>
                         </a>
                     </div>
                     <div class="px-2 py-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="products_page_product_title">Double Door Smart Refrigerator</a>
+                            <a href="product-detail.php" class="products_page_product_title">Double Door Smart Refrigerator</a>
                         </div>
                         <div class="home_hot_offers_stars py-1">
                             <i class="fa-solid fa-star fa-sm"></i>
@@ -653,20 +653,20 @@
                 <div class="products_page_product_box product_detail_customer_bought_box">
                     <div class="products_page_product_img_box">
                         <div class="products_page_product_img_discount">-5%</div>
-                        <a href="#" class="">
+                        <a href="product-detail.php" class="">
                             <div class="products_page_product_img_overlay_btns">
                                 <form action="">
                                     <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                     <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                 </form>
                             </div>
-                            <img src="old-assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
+                            <img src="assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
                             <div class="products_page_product_img_overlay">QUICKVIEW</div>
                         </a>
                     </div>
                     <div class="px-2 py-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="products_page_product_title">Double Door Smart Refrigerator</a>
+                            <a href="product-detail.php" class="products_page_product_title">Double Door Smart Refrigerator</a>
                         </div>
                         <div class="home_hot_offers_stars py-1">
                             <i class="fa-solid fa-star fa-sm"></i>
@@ -688,20 +688,20 @@
                 <div class="products_page_product_box product_detail_customer_bought_box">
                     <div class="products_page_product_img_box">
                         <div class="products_page_product_img_discount">-35%</div>
-                        <a href="#" class="">
+                        <a href="product-detail.php" class="">
                             <div class="products_page_product_img_overlay_btns">
                                 <form action="">
                                     <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                     <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                 </form>
                             </div>
-                            <img src="old-assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
+                            <img src="assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
                             <div class="products_page_product_img_overlay">QUICKVIEW</div>
                         </a>
                     </div>
                     <div class="px-2 py-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="products_page_product_title">Double Door Smart Refrigerator</a>
+                            <a href="product-detail.php" class="products_page_product_title">Double Door Smart Refrigerator</a>
                         </div>
                         <div class="home_hot_offers_stars py-1">
                             <i class="fa-solid fa-star fa-sm"></i>
@@ -723,20 +723,20 @@
                 <div class="products_page_product_box product_detail_customer_bought_box">
                     <div class="products_page_product_img_box">
                         <div class="products_page_product_img_discount">-35%</div>
-                        <a href="#" class="">
+                        <a href="product-detail.php" class="">
                             <div class="products_page_product_img_overlay_btns">
                                 <form action="">
                                     <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                     <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                 </form>
                             </div>
-                            <img src="old-assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
+                            <img src="assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
                             <div class="products_page_product_img_overlay">QUICKVIEW</div>
                         </a>
                     </div>
                     <div class="px-2 py-3 text-center">
                         <div class="text-truncate">
-                            <a href="#" class="products_page_product_title">Double Door Smart Refrigerator</a>
+                            <a href="product-detail.php" class="products_page_product_title">Double Door Smart Refrigerator</a>
                         </div>
                         <div class="home_hot_offers_stars py-1">
                             <i class="fa-solid fa-star fa-sm"></i>

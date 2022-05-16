@@ -21,9 +21,9 @@
         <div class="owl-carousel products_page_subcategory_carousel mt-4">
             <div class="item">
                 <div>
-                    <a href="#" class="text-decoration-none">
+                    <a href="products.php" class="text-decoration-none">
                         <div>
-                            <img src="old-assets/img/p-0.jpg" width="100%" alt="" class="rounded-circle">
+                            <img src="assets/img/p-0.jpg" width="100%" alt="" class="rounded-circle">
                         </div>
                         <div class="products_page_product_title text-decoration-none text-center mt-3">
                             Men Collection
@@ -33,9 +33,9 @@
             </div>
             <div class="item">
                 <div>
-                    <a href="#" class="text-decoration-none">
+                    <a href="products.php" class="text-decoration-none">
                         <div>
-                            <img src="old-assets/img/p-1.jpg" width="100%" alt="" class="rounded-circle">
+                            <img src="assets/img/p-1.jpg" width="100%" alt="" class="rounded-circle">
                         </div>
                         <div class="products_page_product_title text-decoration-none text-center mt-3">
                             Women Collection
@@ -45,9 +45,9 @@
             </div>
             <div class="item">
                 <div>
-                    <a href="#" class="text-decoration-none">
+                    <a href="products.php" class="text-decoration-none">
                         <div>
-                            <img src="old-assets/img/p-3.jpg" width="100%" alt="" class="rounded-circle">
+                            <img src="assets/img/p-3.jpg" width="100%" alt="" class="rounded-circle">
                         </div>
                         <div class="products_page_product_title text-decoration-none text-center mt-3">
                             Kids Collection
@@ -236,20 +236,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -273,20 +273,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-30%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -309,20 +309,20 @@
                 <div class="col-md-4 col-6">
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Blue High Hill</a>
+                                <a href="product-detail.php" class="products_page_product_title">Blue High Hill</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -344,20 +344,20 @@
                 <div class="col-md-4 col-6">
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Brown Long Shoes</a>
+                                <a href="product-detail.php" class="products_page_product_title">Brown Long Shoes</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -380,20 +380,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-5%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -417,20 +417,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -454,20 +454,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -491,20 +491,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -528,20 +528,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-2.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -565,20 +565,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-3.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -602,20 +602,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-4.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -639,20 +639,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -676,20 +676,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-0.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt Black Belt Black Belt Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
@@ -713,20 +713,20 @@
                     <div class="products_page_product_box">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
-                            <a href="#" class="">
+                            <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
                                     <form action="">
                                         <button class="me-1"><i class="fa-solid fa-cart-plus"></i></button>
                                         <button class="ms-1"><i class="fa-solid fa-heart"></i></button>
                                     </form>
                                 </div>
-                                <img src="old-assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
+                                <img src="assets/img/p-1.jpg" class="products_page_product_img" width="100%" alt="">
                                 <div class="products_page_product_img_overlay">QUICKVIEW</div>
                             </a>
                         </div>
                         <div class="p-3">
                             <div class="text-truncate">
-                                <a href="#" class="products_page_product_title">Black Belt</a>
+                                <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
                             </div>
                             <div class="py-1">
                                 <span class="text-warning pe-1">
