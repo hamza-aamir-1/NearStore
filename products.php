@@ -269,8 +269,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -306,8 +306,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 4,399</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 4,399</span>
                                 <span class="products_page_product_price">Rs. 3,999</span>
                             </div>
                         </div>
@@ -342,7 +342,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
+                            <div class="d-flex flex-column flex-md-row align-items-center">
                                 <span class="products_page_product_price">Rs. 499</span>
                             </div>
                         </div>
@@ -377,7 +377,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
+                            <div class="d-flex flex-column flex-md-row align-items-center">
                                 <span class="products_page_product_price">Rs. 2,699</span>
                             </div>
                         </div>
@@ -413,8 +413,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -450,8 +450,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -487,8 +487,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -524,8 +524,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -561,8 +561,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -598,8 +598,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -635,8 +635,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -672,8 +672,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -709,8 +709,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>
@@ -746,8 +746,8 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="d-flex flex-column flex-md-row">
-                                <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
+                            <div class="d-flex flex-column flex-md-row align-items-center">
+                                <span class="products_page_product_price_del text-secondary pe-0 pe-md-2">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
                         </div>

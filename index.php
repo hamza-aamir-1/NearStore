@@ -624,10 +624,10 @@
         <div class="home_see_all_items_heading">Best Selling</div>
       </div>
 
-      <div class="row g-5">
+      <div class="row g-3 g-md-5">
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
               <a href="product-detail.php" class="">
@@ -652,7 +652,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title"
                   >Black Belt Black Belt Black Belt Black Belt</a
@@ -667,9 +667,9 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span
-                  class="products_page_product_price_del text-secondary pe-1"
+                  class="products_page_product_price_del text-secondary pe-md-2 pe-0"
                   >Rs. 1,999</span
                 >
                 <span class="products_page_product_price">Rs. 1,699</span>
@@ -680,7 +680,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-30%</div>
               <a href="product-detail.php" class="">
@@ -705,7 +705,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
               </div>
@@ -718,9 +718,9 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span
-                  class="products_page_product_price_del text-secondary pe-1"
+                  class="products_page_product_price_del text-secondary pe-md-2 pe-0"
                   >Rs. 4,399</span
                 >
                 <span class="products_page_product_price">Rs. 3,999</span>
@@ -731,7 +731,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
@@ -755,7 +755,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title"
                   >Blue High Hill</a
@@ -770,7 +770,7 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span class="products_page_product_price">Rs. 499</span>
               </div>
             </div>
@@ -779,7 +779,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <a href="product-detail.php" class="">
                 <div class="products_page_product_img_overlay_btns">
@@ -803,7 +803,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title"
                   >Brown Long Shoes</a
@@ -818,7 +818,7 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span class="products_page_product_price">Rs. 2,699</span>
               </div>
             </div>
@@ -827,7 +827,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-5%</div>
               <a href="product-detail.php" class="">
@@ -852,7 +852,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title"
                   >Black Belt Black Belt Black Belt Black Belt</a
@@ -867,9 +867,9 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span
-                  class="products_page_product_price_del text-secondary pe-1"
+                  class="products_page_product_price_del text-secondary pe-md-2 pe-0"
                   >Rs. 1,999</span
                 >
                 <span class="products_page_product_price">Rs. 1,699</span>
@@ -880,7 +880,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
               <a href="product-detail.php" class="">
@@ -905,7 +905,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
               </div>
@@ -918,9 +918,9 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span
-                  class="products_page_product_price_del text-secondary pe-1"
+                  class="products_page_product_price_del text-secondary pe-md-2 pe-0"
                   >Rs. 1,999</span
                 >
                 <span class="products_page_product_price">Rs. 1,699</span>
@@ -931,7 +931,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
               <a href="product-detail.php" class="">
@@ -956,7 +956,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title"
                   >Black Belt Black Belt Black Belt Black Belt</a
@@ -971,9 +971,9 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span
-                  class="products_page_product_price_del text-secondary pe-1"
+                  class="products_page_product_price_del text-secondary pe-md-2 pe-0"
                   >Rs. 1,999</span
                 >
                 <span class="products_page_product_price">Rs. 1,699</span>
@@ -984,7 +984,7 @@
 
         <!-- Product Item -->
         <div class="col-lg-3 col-md-4 col-6">
-          <div class="products_page_product_box">
+          <div class="products_page_product_box h-100">
             <div class="products_page_product_img_box">
               <div class="products_page_product_img_discount">-15%</div>
               <a href="product-detail.php" class="">
@@ -1009,7 +1009,7 @@
                 </div>
               </a>
             </div>
-            <div class="p-3">
+            <div class="p-3 text-center text-md-start">
               <div class="text-truncate">
                 <a href="product-detail.php" class="products_page_product_title">Black Belt</a>
               </div>
@@ -1022,9 +1022,9 @@
                   <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                 </span>
               </div>
-              <div class="">
+              <div class="d-flex flex-column flex-md-row align-items-center">
                 <span
-                  class="products_page_product_price_del text-secondary pe-1"
+                  class="products_page_product_price_del text-secondary pe-md-2 pe-0"
                   >Rs. 1,999</span
                 >
                 <span class="products_page_product_price">Rs. 1,699</span>
@@ -1034,7 +1034,7 @@
         </div>
 
         <div class="col-12">
-          <div class="home_see_all_items_link text-center">
+          <div class="home_see_all_items_link text-center mt-4">
             <a href="products.php">See all Items</a>
           </div>
         </div>
