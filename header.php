@@ -134,7 +134,7 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </div>
-          <div>
+          <div class="w-100">
             <input
               type="search"
               class="home_search_box_input"
