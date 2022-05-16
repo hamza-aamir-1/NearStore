@@ -105,12 +105,13 @@
                 </table>
 
                 <!-- Price -->
-                <div class="mt-3">
+                <div class="mt-3 text-center text-md-start">
                     <span class="product_detail_price pe-2">675 Rs.</span>
                     <span class="product_detail_price_del text-secondary">730 Rs.</span>
                 </div>
 
                 <!-- Timer -->
+                <div class="text-center text-md-start">
                 <div class="align-items-center py-2 px-2 text-center product_detail_timer mt-3">
                     <div>
                         <img src="assets/img/clock.png" width="30px" alt="">
@@ -132,9 +133,10 @@
                         <div class="product_detail_timer_text">Secs</div>
                     </div>
                 </div>
+                </div>
 
                 <!-- CTA Buttons -->
-                <div class="mt-4">
+                <div class="mt-4 d-flex justify-content-center justify-content-md-start">
                     <form action="" class="product_detail_cta_buttons">
                         <button>
                             <i class="fa-solid fa-cart-plus pe-1 fa-lg"></i>
@@ -181,8 +183,8 @@
 
     <!-- === Reviews === -->
     <section>
-        <div class="d-flex justify-content-between">
-            <div class="product_detail_title">
+        <div class="d-flex justify-content-between flex-column flex-md-row">
+            <div class="product_detail_title mb-2 mb-md-0">
                 <img src="assets/img/comment.png" class="pe-1" width="30px" alt="">
                 Comments
                 (<span>2</span>)
@@ -364,7 +366,7 @@
             <!-- === Write Review === -->
             <section class="">
                 <!-- Button trigger modal -->
-                <div class="text-end mt-4">
+                <div class="text-md-end text-center mt-4">
                     <button type="button" class="product_detail_write_review_btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <i class="fa-solid fa-pen pe-1"></i>
                         Write your review
@@ -606,7 +608,7 @@
                             <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                             <span class="text-dark product_detail_text">(7)</span>
                         </div>
-                        <div class="">
+                        <div class="d-flex flex-column align-items-center">
                             <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                             <span class="products_page_product_price">Rs. 1,699</span>
                         </div>
@@ -641,7 +643,7 @@
                             <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                             <span class="text-dark product_detail_text">(27)</span>
                         </div>
-                        <div class="">
+                        <div class="d-flex flex-column align-items-center">
                             <span class="products_page_product_price_del text-secondary pe-1">Rs. 4,999</span>
                             <span class="products_page_product_price">Rs. 1,049</span>
                         </div>
@@ -676,7 +678,7 @@
                             <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                             <span class="text-dark product_detail_text">(0)</span>
                         </div>
-                        <div class="">
+                        <div class="d-flex flex-column align-items-center">
                             <span class="products_page_product_price_del text-secondary pe-1">Rs. 799</span>
                             <span class="products_page_product_price">Rs. 649</span>
                         </div>
@@ -711,7 +713,7 @@
                             <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                             <span class="text-dark product_detail_text">(27)</span>
                         </div>
-                        <div class="">
+                        <div class="d-flex flex-column align-items-center">
                             <span class="products_page_product_price_del text-secondary pe-1">Rs. 4,999</span>
                             <span class="products_page_product_price">Rs. 1,049</span>
                         </div>
@@ -746,7 +748,7 @@
                             <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                             <span class="text-dark product_detail_text">(27)</span>
                         </div>
-                        <div class="">
+                        <div class="d-flex flex-column align-items-center">
                             <span class="products_page_product_price_del text-secondary pe-1">Rs. 4,999</span>
                             <span class="products_page_product_price">Rs. 1,049</span>
                         </div>

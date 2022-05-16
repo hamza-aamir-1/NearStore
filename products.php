@@ -62,11 +62,20 @@
     <div class="row navbar-expand-lg">
     <!-- === Filter === -->
     <section class="col-lg-3">
-        <form action="" class="offcanvas offcanvas-start overflow-auto" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel">
+        <form action="" class="offcanvas offcanvas-end overflow-auto" tabindex="-1" id="offcanvasFilter" aria-labelledby="offcanvasFilterLabel" data-disableScrolling="false">
         <div class="">
 
-            <div class="products_page_gray_box products_page_filter_header p-3">
-                Filter By
+            <div class="products_page_gray_box products_page_filter_header p-3 d-flex justify-content-between">
+                <span>
+                    Filter By
+                </span>
+                <button
+                type="button"
+                class="btn-close text-reset shadow-none d-block d-lg-none"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+                data-disableScrolling="false"
+                ></button>
             </div>
 
             <!-- === Brand === -->
@@ -188,9 +197,9 @@
             <!-- Filter -->
             <div class="products_page_gray_box p-3 d-flex justify-content-between">
 
-                <div class="d-flex align-items-center">
+                <div class="d-md-flex align-items-md-center">
                     <!-- Off Canvas Filter -->
-                    <div class="pe-2">
+                    <div class="pe-2 mb-2 mb-md-0">
                         <button class="shadow-none d-lg-none d-block products_page_filter_btn_offcanvas" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasFilter" aria-controls="offcanvasFilter">
                             <i class="fa-solid fa-filter pe-1"></i>
                             Filter
@@ -212,7 +221,7 @@
                     </div>
                 </div>
 
-                <div class="d-flex align-items-center">
+                <div class="d-md-flex align-items-md-center mt-auto">
                     <div class="product_page_filter_heading pe-2 d-md-block d-none">
                         Show:
                     </div>
@@ -229,11 +238,11 @@
             <!-- Filter -->
 
             <!-- Products -->
-            <section class="row g-4 py-4">
+            <section class="row g-3 g-md-4 py-4">
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -260,7 +269,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -270,7 +279,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-30%</div>
                             <a href="product-detail.php" class="">
@@ -297,7 +306,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 4,399</span>
                                 <span class="products_page_product_price">Rs. 3,999</span>
                             </div>
@@ -307,7 +316,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
@@ -333,7 +342,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price">Rs. 499</span>
                             </div>
                         </div>
@@ -342,7 +351,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <a href="product-detail.php" class="">
                                 <div class="products_page_product_img_overlay_btns">
@@ -368,7 +377,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price">Rs. 2,699</span>
                             </div>
                         </div>
@@ -377,7 +386,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-5%</div>
                             <a href="product-detail.php" class="">
@@ -404,7 +413,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -414,7 +423,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -441,7 +450,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -451,7 +460,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -478,7 +487,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -488,7 +497,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -515,7 +524,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -525,7 +534,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -552,7 +561,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -562,7 +571,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -589,7 +598,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -599,7 +608,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -626,7 +635,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -636,7 +645,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -663,7 +672,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -673,7 +682,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -700,7 +709,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -710,7 +719,7 @@
 
                 <!-- Product Item -->
                 <div class="col-md-4 col-6">
-                    <div class="products_page_product_box">
+                    <div class="products_page_product_box h-100">
                         <div class="products_page_product_img_box">
                             <div class="products_page_product_img_discount">-15%</div>
                             <a href="product-detail.php" class="">
@@ -737,7 +746,7 @@
                                     <i class="fa-solid fa-star-half-stroke fa-sm"></i>
                                 </span>
                             </div>
-                            <div class="">
+                            <div class="d-flex flex-column flex-md-row">
                                 <span class="products_page_product_price_del text-secondary pe-1">Rs. 1,999</span>
                                 <span class="products_page_product_price">Rs. 1,699</span>
                             </div>
@@ -748,8 +757,8 @@
             </section>
             <!-- Products -->
 
-            <div class="products_page_gray_box p-3 d-flex justify-content-between align-items-center">
-                <div class="product_page_filter_text">
+            <div class="products_page_gray_box p-3 d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <div class="product_page_filter_text mb-2 mb-md-0">
                     Showing 1-10 of 12 item(s)
                 </div>
                 <div class="products_page_pagination_boxes d-flex">
