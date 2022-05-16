@@ -56,7 +56,7 @@
             </header>
             </a>
             <div class="collapse" id="personalInformation">
-            <main class="d-flex py-3 px-4 checkout_info_border">
+            <main class="d-flex py-3 px-md-4 px-2 checkout_info_border">
                     <table class="">
 
                         <!-- Gender -->
@@ -75,7 +75,7 @@
                         </tr>
 
                         <!-- First Name -->
-                        <tr>
+                        <tr class="">
                             <td class="checkout_price_box_text checkout_table_td">First name</td>
                             <td class="checkout_table_td">
                                 <div>
@@ -184,7 +184,7 @@
                 </header>
                 </a>
                 <div class="collapse" id="addresses">
-                    <main class="d-flex py-3 px-4 checkout_info_border">
+                    <main class="d-flex py-3 px-md-4 px-2 checkout_info_border">
                             <table class="">
         
                                 <!-- Address -->
@@ -254,7 +254,7 @@
                 </header>
                 </a>
                 <div class="collapse" id="shippingMethod">
-                    <main class="py-3 px-4 checkout_info_border">
+                    <main class="py-3 px-md-4 px-2 checkout_info_border">
                         <div>
                             <input type="radio" name="shippingMethod" id="freeCarrier" class="me-2">
                             <label for="freeCarrier" class="checkout_price_box_text">Free Carrier (Delivery next week! - Free)</label>
@@ -284,7 +284,7 @@
                 </header>
                 </a>
                 <div class="collapse" id="payment">
-                    <main class="py-3 px-4 checkout_info_border">
+                    <main class="py-3 px-md-4 px-2 checkout_info_border">
                         <div>
                             <input type="radio" name="paymentRadio" id="paymentCod" class="me-2">
                             <label for="paymentCod" class="checkout_price_box_text">Cash on Delivery</label>
@@ -318,7 +318,7 @@
                 Your Order
             </div>
         </header>
-        <main class="checkout_info_border py-3 px-4">
+        <main class="checkout_info_border py-3 px-md-4 px-2">
             <div class="checkout_price_box_text py-1">
                 2 item
             </div>
@@ -332,7 +332,7 @@
                     <div class="d-flex align-items-center py-2">
                         <div class="pe-2">
                             <a href="#">
-                                <img src="old-assets/img/p-1.jpg" width="50px" alt="">
+                                <img src="assets/img/p-1.jpg" width="50px" alt="">
                             </a>
                         </div>
                         <div class="checkout_price_box_text">
@@ -353,7 +353,7 @@
                     <div class="d-flex align-items-center py-2">
                         <div class="pe-2">
                             <a href="#">
-                                <img src="old-assets/img/p-3.jpg" width="50px" alt="">
+                                <img src="assets/img/p-3.jpg" width="50px" alt="">
                             </a>
                         </div>
                         <div class="checkout_price_box_text">

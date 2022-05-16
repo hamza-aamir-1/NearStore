@@ -1030,6 +1030,12 @@ input[type=checkbox] {
     background-color: var(--black);
 }
 
+@media screen and (max-width: 768px) {
+    .checkout_table_td{
+        min-width: 90px;
+    }
+}
+
 
 
 /* === Track Orders Page === */
