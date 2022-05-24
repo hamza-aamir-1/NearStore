@@ -140,7 +140,8 @@
               class="home_search_box_input"
               placeholder="Search"
               name=""
-              id=""
+              id="homeSearch"
+              onkeyup="homeSearchFun()"
             />
           </div>
           <div>
