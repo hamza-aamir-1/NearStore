@@ -1,3 +1,11 @@
+// === Home Page ===
+
+// Search Bar
+const homeSearchFun = () => {
+    let homeSearch = document.getElementById('homeSearch').value;
+    console.log(homeSearch);
+}
+
 // === Products Page ===
 
 // Sub Category Carousel
