@@ -116,7 +116,7 @@
       </div>
 
       <!-- Search -->
-      <div class="mx-auto flex-grow-1 px-xl-5 px-md-4 px-2">
+      <div class="mx-auto flex-grow-1 px-xl-5 px-md-4 px-0">
         <form action="" class="d-flex align-items-center home_search_box">
           <div class="dropdown home_search_box_dropdown">
             <button
@@ -134,15 +134,22 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </div>
-          <div class="w-100">
+          <div class="w-100 home_search_box_input">
             <input
               type="search"
-              class="home_search_box_input"
+              class="form-control w-100 shadow-none border-0"
               placeholder="Search"
               name=""
               id="homeSearch"
               onkeyup="homeSearchFun()"
             />
+            <div class="home_search_box_input_list">
+              <a href="#" class="text-truncate">Black Belt</a>
+              <a href="#">Brown Belt</a>
+              <a href="#">Brown Shoes</a>
+              <a href="#">Red Shirt</a>
+              <a href="#">Yellow Watch</a>
+            </div>
           </div>
           <div>
             <button type="submit" class="btn shadow-none text-secondary">
