@@ -1062,6 +1062,114 @@ input[type=checkbox] {
 
 
 
+/* ===== Login Page ===== */
+
+/* Header */
+.login_logo > img{
+    width: 17%;
+}
+
+/* Main */
+.login_main_box{
+    width: 50%;
+    background: rgb(217,48,44);
+    background: linear-gradient(45deg, rgba(217,48,44,1) 0%, rgba(242,103,100,1) 50%, rgba(234,58,58,1) 100%);
+    border-radius: 10px;
+}
+.login_leftbtn_heading > button > i{
+    color: white;
+    font-size: 25px;
+}
+.login_leftbtn_heading > div{
+    color: white;
+}
+.login_input{
+    letter-spacing: 1.3px;
+    color: gray;
+    font-size: 16px;
+}
+.login_input_text{
+    font-size: 14px;
+}
+.login_input_text > a{
+    color: white;
+    text-decoration: underline;
+}
+.login_input_checkbox{
+    accent-color: black;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.login_submit_btn{
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+.login_submit_btn:hover{
+    color: white;
+}
+.login_google_btn{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    width: 45px;
+    height: 45px;
+}
+.login_signup_text{
+    font-size: 16px;
+}
+.login_signup_text > a{
+    color: white;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 992px) {
+    .login_logo > img{
+        width: 25%;
+    }
+    .login_main_box{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .login_logo > img{
+        width: 35%;
+    }
+    .login_main_box{
+        width: 90%;
+    }
+}
+
+
+
+/* ===== Signup Page ===== */
+.show_hide_password_box{
+    position: relative;
+}
+.show_hide_password_box > span > i{
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    font-size: 20px;
+    color: black;
+}
+.signup_password_box > span > i{
+    top: 70%;
+    transform: translateY(-50%);
+}
+.login_password_box > span > i{
+    top: 55%;
+    transform: translateY(-50%);
+}
+.reset_password_box > span > i{
+    top: 70%;
+    transform: translateY(-50%);
+}
+
+
+
 /* === Track Orders Page === */
 
 /* Track  Orders Heading */

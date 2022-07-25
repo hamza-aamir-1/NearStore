@@ -126,3 +126,51 @@ $('.product_detail_customer_bought_carousel').owlCarousel({
         }
     }
 })
+
+// === Show / Hide Password ===
+
+// Variables declared & initialized
+let loginPassword1 = document.getElementById('loginInputPassword1');
+let loginEyePassword1 = document.getElementById('eyeLoginInputPassword1');
+
+let signupPassword1 = document.getElementById('signupInputPassword1');
+let signupEyePassword1 = document.getElementById('eyeSignupInputPassword1');
+
+let signupPassword2 = document.getElementById('signupInputPassword2');
+let signupEyePassword2 = document.getElementById('eyeSignupInputPassword2');
+
+let resetPassword1 = document.getElementById('resetInputPassword1');
+let resetEyePassword1 = document.getElementById('eyeResetInputPassword1');
+
+let resetPassword2 = document.getElementById('resetInputPassword2');
+let resetEyePassword2 = document.getElementById('eyeResetInputPassword2');
+
+// Show Hide Function
+showHidePassword = (pass, toggle) => {
+    if (pass.type == 'password') {
+        pass.setAttribute('type', 'text');
+        toggle.classList.remove('bi-eye-slash');
+        toggle.classList.add('bi-eye');
+    } else {
+        toggle.classList.remove('bi-eye');
+        toggle.classList.add('bi-eye-slash');
+        pass.setAttribute('type', 'password');
+    }
+};
+
+// Login Page Call Function
+if(loginEyePassword1){
+    loginEyePassword1.addEventListener('click', () => {showHidePassword(loginPassword1, loginEyePassword1)});
+}
+
+// Signup Page Call Function
+if(signupEyePassword1 && signupEyePassword2){
+signupEyePassword1.addEventListener('click', () => {showHidePassword(signupPassword1, signupEyePassword1)});
+signupEyePassword2.addEventListener('click', () => {showHidePassword(signupPassword2, signupEyePassword2)});
+}
+
+// Reset Page Call Function
+if(resetEyePassword1 && resetEyePassword2){
+resetEyePassword1.addEventListener('click', () => {showHidePassword(resetPassword1, resetEyePassword1)});
+resetEyePassword2.addEventListener('click', () => {showHidePassword(resetPassword2, resetEyePassword2)});
+}

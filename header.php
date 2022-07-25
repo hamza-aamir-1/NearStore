@@ -51,9 +51,9 @@
         </div>
         <div class="d-none d-md-block">
           <i class="fa-solid fa-circle-user pe-1 fa-lg"></i>
-          <a href="#" class="home_welcome_ns_link">Sign In</a>
+          <a href="login.php" class="home_welcome_ns_link">Sign In</a>
           <span> / </span>
-          <a href="#" class="home_welcome_ns_link">Register</a>
+          <a href="signup.php" class="home_welcome_ns_link">Register</a>
         </div>
         <div class="dropdown d-block d-md-none">
           <a
@@ -71,8 +71,8 @@
             aria-labelledby="home_welcome_ns_drop"
           >
             <li><a class="dropdown-item" href="profile.php">My Account</a></li>
-            <li><a class="dropdown-item" href="#">Sign In</a></li>
-            <li><a class="dropdown-item" href="#">Register</a></li>
+            <li><a class="dropdown-item" href="login.php">Sign In</a></li>
+            <li><a class="dropdown-item" href="signup.php">Register</a></li>
             <li><a class="dropdown-item" href="#">Contact Us</a></li>
           </ul>
         </div>
