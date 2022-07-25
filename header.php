@@ -47,7 +47,7 @@
           <a href="#" class="home_welcome_ns_link">Contact Us</a>
         </div>
         <div class="me-4 d-none d-md-block">
-          <a href="#" class="home_welcome_ns_link">My Account</a>
+          <a href="profile.php" class="home_welcome_ns_link">My Account</a>
         </div>
         <div class="d-none d-md-block">
           <i class="fa-solid fa-circle-user pe-1 fa-lg"></i>
@@ -70,7 +70,7 @@
             class="dropdown-menu p-0 home_welcome_ns_drop_box"
             aria-labelledby="home_welcome_ns_drop"
           >
-            <li><a class="dropdown-item" href="#">My Account</a></li>
+            <li><a class="dropdown-item" href="profile.php">My Account</a></li>
             <li><a class="dropdown-item" href="#">Sign In</a></li>
             <li><a class="dropdown-item" href="#">Register</a></li>
             <li><a class="dropdown-item" href="#">Contact Us</a></li>
@@ -143,7 +143,7 @@
               id="homeSearch"
               onkeyup="homeSearchFun()"
             />
-            <div class="home_search_box_input_list">
+            <div class="home_search_box_input_list d-none">
               <a href="#" class="text-truncate">Black Belt</a>
               <a href="#">Brown Belt</a>
               <a href="#">Brown Shoes</a>
