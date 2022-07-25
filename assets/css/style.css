@@ -161,9 +161,7 @@ body{
 
 /* Search Header */
 .home_logo{
-    color: var(--primary-clr);
-    font-size: 22px;
-    font-family: font-extra-bold;
+    width: 170px;
 }
 .home_search_box{
     border: 1px solid var(--primary-clr);
@@ -473,6 +471,9 @@ body{
     }
 }
 @media screen and (max-width: 768px) {
+    .home_logo{
+        width: 120px;
+    }
     .hero_carousel_text_box::after{
         content: "";
         background-color: rgba(0, 0, 0, 0.3);

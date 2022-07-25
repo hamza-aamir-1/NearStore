@@ -87,8 +87,10 @@
       class="px-4 pt-4 d-flex flex-row align-items-center justify-content-between d-block d-lg-none"
     >
       <!-- Logo -->
-      <div>
-        <div class="home_logo">NEARSTORE</div>
+      <div class="home_logo">
+        <a href="index.php">
+          <img src="assets/img/ns-logo-text.png" width="100%" alt="">
+        </a>
       </div>
       <!-- Call Icon -->
       <div class="ps-2 pe-lg-3 home_search_header_call_box">
@@ -111,8 +113,10 @@
       class="px-4 py-4 d-flex flex-row align-items-center justify-content-between"
     >
       <!-- Logo -->
-      <div class="d-none d-lg-block flex-grow-0">
-        <div class="home_logo">NEARSTORE</div>
+      <div class="d-none d-lg-block flex-grow-0 home_logo">
+        <a href="index.php">
+          <img src="assets/img/ns-logo-text.png" width="100%" alt="">
+        </a>
       </div>
 
       <!-- Search -->
